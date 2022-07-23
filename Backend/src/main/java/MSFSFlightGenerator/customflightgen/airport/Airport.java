@@ -10,28 +10,29 @@ import javax.persistence.Table;
 public class Airport {
 
     @Id
-    private final String icaoCode;
+    private String icaoCode;
 
-    @Column(name = "airport_size")
-    private final String size;
+    @Column(name = "airport_size", nullable = false)
+    private String size;
 
-    @Column(name = "airport_name")
-    private final String airportName;
+    @Column(name = "airport_name", nullable = false)
+    private String airportName;
 
-    @Column(name = "latitude")
-    private final Double latitude;
+    @Column(name = "latitude", nullable = false)
+    private Double latitude;
 
-    @Column(name = "longitude")
-    private final Double longitude;
+    @Column(name = "longitude", nullable = false)
+    private Double longitude;
 
-    @Column(name = "continent")
-    private final String continent;
+    @Column(name = "continent", nullable = false)
+    private String continent;
 
-    @Column(name = "country")
-    private final String country;
+    @Column(name = "country", nullable = false)
+    private String country;
 
-    @Column(name = "municipality")
-    private final String municipality;
+    public Airport(){
+
+    }
 
     public Airport(String icaoCode,
                    String size,
@@ -39,8 +40,7 @@ public class Airport {
                    Double latitude,
                    Double longitude,
                    String continent,
-                   String country,
-                   String municipality) {
+                   String country) {
         this.icaoCode = icaoCode;
         this.size = size;
         this.airportName = airportName;
@@ -48,7 +48,6 @@ public class Airport {
         this.longitude = longitude;
         this.continent = continent;
         this.country = country;
-        this.municipality = municipality;
     }
 
     public String getIcaoCode() {
@@ -77,9 +76,5 @@ public class Airport {
 
     public String getCountry() {
         return country;
-    }
-
-    public String getMunicipality() {
-        return municipality;
     }
 }

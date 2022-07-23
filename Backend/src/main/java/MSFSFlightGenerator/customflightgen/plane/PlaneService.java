@@ -2,6 +2,8 @@ package MSFSFlightGenerator.customflightgen.plane;
 
 import MSFSFlightGenerator.customflightgen.CustomException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -19,20 +21,24 @@ public class PlaneService {
         this.planeRepository = planeRepository;
     }
 
-    public Plane getPlaneById(String name){
+    public Plane findPlaneById(String name){
         return planeRepository.findById(name)
                 .orElseThrow(() -> new CustomException("cannot find plane"));
     }
 
-    public List<Plane> getAllPlanes(){
+    public List<Plane> findAllPlanes(){
         return planeRepository.findAll();
     }
 
-    public void saveNewPlane(Plane plane){
-        planeRepository.save(plane);
+//    public void saveNewPlane(Plane plane){
+//        planeRepository.save(plane);
+//    }
+
+    public Plane findRandomPlane(){
+        return planeRepository.getRandomPlane();
     }
 
-    public void addPlanesFromCsv() throws IOException {
+    public void savePlanesFromCsv() throws IOException {
         File file = new File("Text-files/planes.csv");
         Files.lines(file.toPath())
                 .forEach(a -> {

@@ -1,4 +1,3 @@
-icao,type,name,latitude_deg,longitude_deg,continent,iso_country,municipality
 03N,small_airport,Utirik Airport,11.222,169.852005,OC,MH,Utirik Island
 07FA,small_airport,Ocean Reef Club Airport,25.3253994,-80.27480316,NA,US,Key Largo
 0AK,small_airport,Pilot Station Airport,61.934601,-162.899994,NA,US,Pilot Station
@@ -82,7 +81,7 @@ AF-0005,medium_airport,Khost International Airport,33.284605,69.80734,AS,AF,Khos
 AF10,small_airport,Orūzgān Airport,32.90299988,66.63089752,AS,AF,Orūzgān
 AF11,small_airport,Salerno Airport,33.3638,69.9561,AS,AF,Khost
 AFK,seaplane_base,Kondavattavana Tank Seaplane Base,7.284,81.644,AS,LK,Ampara
-AFR,small_airport,Afore Airstrip,-9.142222222,148.3908333,OC,PG,
+AFR,small_airport,Afore Airstrip,-9.142222222,148.3908333,OC,PG,Afore
 AGAF,small_airport,Afutara Aerodrome,-9.191388889,160.9486111,OC,SB,Bila
 AGAR,small_airport,Ulawa Airport,-9.860543583,161.9795465,OC,SB,Arona
 AGAT,small_airport,Uru Harbour Airport,-8.87333,161.011002,OC,SB,Atoifi
@@ -91,7 +90,7 @@ AGEV,small_airport,Geva Airport,-7.575829983,156.5970001,OC,SB,Liangia
 AGG,small_airport,Angoram Airport,-4.055833333,144.0738889,OC,PG,Angoram
 AGGA,small_airport,Gwaunaru'u Airport,-8.70257,160.682007,OC,SB,Auki
 AGGB,small_airport,Bellona/Anua Airport,-11.30222222,159.7983333,OC,SB,Anua
-AGGC,small_airport,Choiseul Bay Airport,-6.711944,156.396111,OC,SB,
+AGGC,small_airport,Choiseul Bay Airport,-6.711944,156.396111,OC,SB,Choiseul
 AGGE,small_airport,Ballalae Airport,-6.990745,155.886656,OC,SB,Ballalae
 AGGF,small_airport,Fera/Maringe Airport,-8.1075,159.576996,OC,SB,Fera Island
 AGGH,large_airport,Honiara International Airport,-9.428,160.054993,OC,SB,Honiara
@@ -114,7 +113,7 @@ AGK,small_airport,Kagua Airport,-6.396388889,143.8536111,OC,PG,Kagua
 AGKG,small_airport,Kaghau Airport,-7.3305,157.585,OC,SB,Kagau Island
 AGKU,small_airport,Kukudu Airport,-8.0262,156.94783,OC,SB,Kolombangara Island
 AGKW,small_airport,Kwailabesi Airport,-8.360508,160.775127,OC,SB,Kwailabesi
-AGL,small_airport,Wanigela Airport,-9.3375,149.1555556,OC,PG,
+AGL,small_airport,Wanigela Airport,-9.3375,149.1555556,OC,PG,Wanigela
 AGNA,small_airport,Nana Airport,-10.6758,162.2049,OC,SB,Star Harbor
 AGOK,small_airport,Gatokae Aerodrome,-8.738358,158.202836,OC,SB,Gatokae
 AGRC,small_airport,Ringi Cove Airport,-8.126390457,157.1430054,OC,SB,Ringi Cove
@@ -141,23 +140,23 @@ AL73,small_airport,Sharpe Field,32.4919014,-85.77559662,NA,US,Tuskegee
 ALZ,seaplane_base,Alitak Seaplane Base,56.8995018,-154.2480011,NA,US,Lazy Bay
 AMC,small_airport,Mar de Cortés International Airport,31.351987,-113.305177,NA,MX,Puerto Peñasco
 AME,small_airport,Alto Molocue Airport,-15.61027778,37.68138889,AF,MZ,Alto Molocue
-AMF,small_airport,Ama Airport,-4.101111111,141.67,OC,PG,
+AMF,small_airport,Ama Airport,-4.101111111,141.67,OC,PG,Ama
 AMG,closed,Amboin Airstrip,-4.605642,143.485308,OC,PG,Amboin
 AMU,small_airport,Amanab Airport,-3.586,141.2143333,OC,PG,Amanab
-AMY,small_airport,Ambatomainty Airport,-17.68666667,45.62388889,AF,MG,
+AMY,small_airport,Ambatomainty Airport,-17.68666667,45.62388889,AF,MG,Ambatomainty
 ANYN,medium_airport,Nauru International Airport,-0.547458,166.919006,OC,NR,Yaren District
 ANZ,small_airport,Angus Downs Airport,-25.0325,132.2748,OC,AU,Angus Downs Station
 AO-0001,small_airport,Catoca Airport,-9.430985,20.311478,AF,AO,Saurimo
 AO-0005,small_airport,Andulo Airport,-11.4723,16.710899,AF,AO,Andulo
 AOA,closed,Aroa Airport,-9.0254,146.8,OC,PG,Agevairu
-AOB,small_airport,Annanberg Airport,-4.904166667,144.6358333,OC,PG,
+AOB,small_airport,Annanberg Airport,-4.904166667,144.6358333,OC,PG,Annanberg
 AO-CNZ,small_airport,Cangamba Airport,-13.7106,19.861099,AF,AO,Cangamba
 AOD,small_airport,Abou-Deïa Airport,11.4773,19.2874,AF,TD,Abou-Deïa
 AO-DRC,small_airport,Dirico Airport,-17.98192406,20.76806068,AF,AO,Dirico
 AO-GGC,small_airport,Lumbala Airport,-12.63987732,22.5868206,AF,AO,Lumbala
 AO-KNP,small_airport,Capanda Airport,-9.769370079,15.4553194,AF,AO,Capanda
 AO-NDF,small_airport,N'dalatando Airport,-9.280378,14.982432,AF,AO,N'dalatando
-APP,small_airport,Asapa Airport,-8.979166667,148.1036111,OC,PG,
+APP,small_airport,Asapa Airport,-8.979166667,148.1036111,OC,PG,Asapa
 APR,small_airport,April River Airport,-4.676666667,142.5401389,OC,PG,April River
 AQ-0002,small_airport,Troll Airfield,-71.95714,2.45257,AN,AQ,Troll Station
 AQY,small_airport,Girdwood-Alyeska Airport,60.968774,-149.119792,NA,US,Girdwood
@@ -172,9 +171,9 @@ AR-0346,small_airport,Sunchales Aeroclub Airport,-30.9575,-61.5283,SA,AR,Sunchal
 AR-0390,small_airport,Carmen de Patagones Airport,-40.7781,-62.9803,SA,AR,Carmen de Patagones
 AR-0462,small_airport,Termal Airport,-26.753611,-60.492222,SA,AR,Presidencia Roque Sáenz Peña
 AR-0494,small_airport,Colonia Sarmiento Airport,-45.582371,-68.999841,SA,AR,Sarmiento
-ARP,small_airport,Aragip Airport,-9.883333333,149.4833333,OC,PG,
+ARP,small_airport,Aragip Airport,-9.883333333,149.4833333,OC,PG,Aragip
 ARX,closed,Asbury Park Neptune Air Terminal,40.21930556,-74.09083333,NA,US,Asbury Park
-ASZ,small_airport,Asirim Airport,-6.009722222,150.3686111,OC,PG,
+ASZ,small_airport,Asirim Airport,-6.009722222,150.3686111,OC,PG,Asirim
 ATN,small_airport,Namatanai Airport,-3.6695,152.438,OC,PG,Namatanai
 ATP,small_airport,Aitape Airport,-3.143611111,142.3468056,OC,PG,Aitape
 AU-0081,small_airport,Lady Elliot Island Airstrip,-24.1129,152.7156,OC,AU,Lady Elliot Island
@@ -196,7 +195,7 @@ AU-KBD,small_airport,Kimberley Downs Airport,-17.39780045,124.3550034,OC,AU,Kimb
 AU-KGR,small_airport,Kulgera Airport,-25.84280014,133.2920074,OC,AU,Kulgera
 AU-MYO,small_airport,Camballin Airport,-18.12470055,124.2720032,OC,AU,Myroodah
 AU-OKB,small_airport,Orchid Beach Airport,-24.95940018,153.3150024,OC,AU,Orchid Beach
-AUP,small_airport,Agaun Airport,-9.930833,149.385667,OC,PG,
+AUP,small_airport,Agaun Airport,-9.930833,149.385667,OC,PG,Agaun
 AU-PEP,small_airport,Peppimenarti Airport,-14.14420033,130.0910034,OC,AU,Peppimenarti
 AU-RDA,small_airport,Rockhampton Downs Airport,-18.95330048,135.201004,OC,AU,Rockhampton Downs
 AU-SSK,small_airport,Sturt Creek Airport,-19.16640091,128.173996,OC,AU,Sturt Creek
@@ -520,7 +519,7 @@ CA-0245,closed,Mould Bay Airport,76.2392,-119.3216,NA,CA,Prince Patrick Is.
 CA-0274,closed,Paradise River Airport,53.43,-57.23333359,NA,CA,
 CA-0313,closed,Rivers Airport,50.01005576,-100.3139305,NA,CA,
 CA-0322,closed,Saglek Airport,58.475119,-62.655373,NA,CA,RCAF Station Saglek
-CA-0378,closed,Terrace Bay Airport,48.81197899,-87.09943771,NA,CA,"Terrace Bay, ON"
+CA-0378,closed,Terrace Bay Airport,48.81197899,-87.09943771,NA,CA,Terrace Bay ON
 CA-0412,closed,Winisk Airport,55.2242,-85.1174,NA,CA,Winisk
 CA-0446,small_airport,Stuart Island Airstrip,50.40944743,-125.1316166,NA,CA,Big Bay
 CA-0504,small_airport,Mary River Aerodrome,71.324167,-79.356944,NA,CA,Mary River
@@ -637,7 +636,7 @@ CN-0081,medium_airport,Jinggangshan Airport,26.856899,114.737,AS,CN,Ji'an
 CN-0082,medium_airport,Baise Youjiang Airport,23.7206,106.959999,AS,CN,Baise (Tianyang)
 CN-0089,medium_airport,Lianyungang Huaguoshan International Airport,34.41406,119.17899,AS,CN,Lianyungang
 CN-0091,medium_airport,Dongying Shengli Airport,37.50859833,118.788002,AS,CN,Dongying
-CN-0104,medium_airport,Xingcheng Air Base,40.580328,120.700374,AS,CN,"Xingcheng, Huludao"
+CN-0104,medium_airport,Xingcheng Air Base,40.580328,120.700374,AS,CN,Xingcheng Huludao
 CN-0113,medium_airport,Altay Airport,47.749886,88.085808,AS,CN,Altay
 CN-0130,medium_airport,Tianshui Maijishan Airport,34.559399,105.860001,AS,CN,Tianshui
 CN-0143,small_airport,Zhangye Ganzhou Airport,38.801899,100.675003,AS,CN,Zhangye
@@ -645,7 +644,7 @@ CN-0157,small_airport,Morin Dawa Banner Airport,48.38745,124.43127,AS,CN,Hulunbu
 CN-0164,closed,Qingdao Liuting Airport,36.266102,120.374001,AS,CN,Qingdao
 CN-0177,small_airport,Shijiazhuang Luancheng Airport,37.91305,114.59166,AS,CN,Shijiazhuang
 CN-0188,medium_airport,Beijing Nanjiao Airport,39.48595,116.37236,AS,CN,Beijing
-CN-0189,medium_airport,Dandong Langtou Airport,40.0247,124.286003,AS,CN,"Zhenxing, Dandong"
+CN-0189,medium_airport,Dandong Langtou Airport,40.0247,124.286003,AS,CN,Zhenxing Dandong
 CN-0236,medium_airport,Xigaze Dingri Airport,28.604567,86.798,AS,CN,Xigaze
 CN-0237,closed,Tashkurgan Airport (under construction),37.661333,75.288877,AS,CN,Tashkurgan
 CN-0253,small_airport,Jiande Qiandaohu General Airport,29.360905,119.180829,AS,CN,Hangzhou
@@ -1188,7 +1187,7 @@ DITB,small_airport,Tabou Airport,4.437809467,-7.362728119,AF,CI,Tabou
 DITN,small_airport,Mahana Airport,8.2934,-7.674,AF,CI,Touba
 DIW,seaplane_base,Mawella Lagoon Seaplane Base,5.990192,80.733129,AS,LK,Dickwella
 DIYO,medium_airport,Yamoussoukro Airport,6.903170109,-5.365580082,AF,CI,Yamoussoukro
-DLC,closed,Dalian Jinzhouwan International Airport (under construction),39.12255,121.59807,AS,CN,"Ganjingzi, Dalian"
+DLC,closed,Dalian Jinzhouwan International Airport (under construction),39.12255,121.59807,AS,CN,Ganjingzi Dalian
 DLR,small_airport,Dalnerechensk Airport,45.877949,133.735822,EU,RU,Dalnerechensk
 DN57,small_airport,Katsina Airport,13.0078,7.66045,AF,NG,Katsina
 DNAA,large_airport,Nnamdi Azikiwe International Airport,9.006790161,7.263169765,AF,NG,Abuja
@@ -1392,7 +1391,7 @@ EGDY,medium_airport,RNAS Yeovilton,51.00939941,-2.638819933,EU,GB,Yeovil
 EGEC,medium_airport,Campbeltown Airport,55.43719864,-5.686389923,EU,GB,Campbeltown
 EGED,medium_airport,Eday Airport,59.19060135,-2.772219896,EU,GB,Eday
 EGEF,small_airport,Fair Isle Airport,59.535801,-1.62806,EU,GB,Fair Isle
-EGEH,small_airport,Whalsay Airstrip,60.376835,-0.927229,EU,GB,"Whalsay, Shetlands"
+EGEH,small_airport,Whalsay Airstrip,60.376835,-0.927229,EU,GB,Whalsay Shetlands
 EGEL,small_airport,Coll Airport,56.60189819,-6.617780209,EU,GB,Coll Island
 EGEN,small_airport,North Ronaldsay Airport,59.36750031,-2.434439898,EU,GB,North Ronaldsay
 EGEO,small_airport,Oban Airport,56.46350098,-5.399670124,EU,GB,North Connel
@@ -1430,7 +1429,7 @@ EGLF,medium_airport,Farnborough Airport,51.2757988,-0.776332974,EU,GB,Farnboroug
 EGLK,medium_airport,Blackbushe Airport,51.32389832,-0.847500026,EU,GB,Yateley
 EGLL,large_airport,London Heathrow Airport,51.4706,-0.461941,EU,GB,London
 EGMC,medium_airport,Southend Airport,51.5714,0.695556,EU,GB,London
-EGMD,medium_airport,Lydd Airport,50.9561,0.939167,EU,GB,"Lydd, Ashford"
+EGMD,medium_airport,Lydd Airport,50.9561,0.939167,EU,GB,Lydd Ashford
 EGMH,closed,Kent International Airport (Manston),51.342201,1.34611,EU,GB,Manston
 EGMK,closed,Lympne Airport,51.08,1.013,EU,GB,Ashford
 EGNC,medium_airport,Carlisle Airport,54.9375,-2.809170008,EU,GB,Carlisle
@@ -1442,7 +1441,7 @@ EGNO,medium_airport,Warton Aerodrome,53.745098,-2.88306,EU,GB,Warton
 EGNR,medium_airport,Hawarden Airport,53.178101,-2.97778,EU,GB,Hawarden
 EGNS,medium_airport,Isle of Man Airport,54.083302,-4.62389,EU,IM,Castletown
 EGNT,medium_airport,Newcastle Airport,55.037498,-1.69167,EU,GB,Newcastle
-EGNV,medium_airport,Teesside International Airport,54.509201,-1.42941,EU,GB,"Darlington, Durham"
+EGNV,medium_airport,Teesside International Airport,54.509201,-1.42941,EU,GB,Darlington Durham
 EGNX,medium_airport,East Midlands Airport,52.8311,-1.32806,EU,GB,Nottingham
 EGOV,medium_airport,Anglesey Airport,53.24810028,-4.535339832,EU,GB,Angelsey
 EGPA,medium_airport,Kirkwall Airport,58.95780182,-2.904999971,EU,GB,Orkney Islands
@@ -1450,20 +1449,20 @@ EGPB,medium_airport,Sumburgh Airport,59.87889862,-1.295560002,EU,GB,Lerwick
 EGPC,medium_airport,Wick Airport,58.45890045,-3.093060017,EU,GB,Wick
 EGPD,medium_airport,Aberdeen Dyce Airport,57.2019,-2.19778,EU,GB,Aberdeen
 EGPE,medium_airport,Inverness Airport,57.54249954,-4.047500134,EU,GB,Inverness
-EGPF,large_airport,Glasgow International Airport,55.871899,-4.43306,EU,GB,"Paisley, Renfrewshire"
+EGPF,large_airport,Glasgow International Airport,55.871899,-4.43306,EU,GB,Paisley Renfrewshire
 EGPH,large_airport,Edinburgh Airport,55.950145,-3.372288,EU,GB,Edinburgh
 EGPI,medium_airport,Islay Airport,55.68190002,-6.256669998,EU,GB,Port Ellen
-EGPK,medium_airport,Glasgow Prestwick Airport,55.502003,-4.587019,EU,GB,"Prestwick, South Ayrshire"
+EGPK,medium_airport,Glasgow Prestwick Airport,55.502003,-4.587019,EU,GB,Prestwick South Ayrshire
 EGPL,medium_airport,Benbecula Airport,57.48109818,-7.362780094,EU,GB,Balivanich
 EGPM,medium_airport,Scatsta Airport,60.43280029,-1.296110034,EU,GB,Shetland Islands
 EGPN,medium_airport,Dundee Airport,56.45249939,-3.02583003,EU,GB,Dundee
-EGPO,medium_airport,Stornoway Airport,58.215599,-6.33111,EU,GB,"Stornoway, Western Isles"
+EGPO,medium_airport,Stornoway Airport,58.215599,-6.33111,EU,GB,Stornoway Western Isles
 EGPR,medium_airport,Barra Airport,57.0228,-7.44306,EU,GB,Eoligarry
 EGPT,small_airport,Perth/Scone Airport,56.43920135,-3.372220039,EU,GB,Perth
 EGPU,medium_airport,Tiree Airport,56.49919891,-6.869170189,EU,GB,Balemartine
 EGPW,small_airport,Unst Airport,60.74720001,-0.853850007,EU,GB,Shetland Islands
 EGQK,medium_airport,RAF Kinloss,57.6493988,-3.560640097,EU,GB,Kinloss
-EGQL,medium_airport,Leuchars Station Airfield,56.37398,-2.868862,EU,GB,"Leuchars, Fife"
+EGQL,medium_airport,Leuchars Station Airfield,56.37398,-2.868862,EU,GB,Leuchars Fife
 EGQS,medium_airport,RAF Lossiemouth,57.7052002,-3.339169979,EU,GB,Lossiemouth
 EGSC,medium_airport,Cambridge Airport,52.205002,0.175,EU,GB,Cambridge
 EGSH,medium_airport,Norwich International Airport,52.6758,1.28278,EU,GB,Norwich
@@ -1549,63 +1548,63 @@ EKVJ,medium_airport,Stauning Airport,55.99010086,8.353910446,EU,DK,Skjern / Ring
 EKYT,medium_airport,Aalborg Airport,57.092759,9.849243,EU,DK,Aalborg
 ELLX,large_airport,Luxembourg-Findel International Airport,49.6233333,6.2044444,EU,LU,Luxembourg
 EMR,heliport,El Mirador Heliport,17.752077,-89.924916,NA,GT,El Mirador
-ENAL,medium_airport,"Ålesund Airport, Vigra",62.5625,6.1197,EU,NO,Ålesund
-ENAN,medium_airport,"Andøya Airport, Andenes",69.292503,16.144199,EU,NO,Andenes
+ENAL,medium_airport,Ålesund Airport Vigra,62.5625,6.1197,EU,NO,Ålesund
+ENAN,medium_airport,Andøya Airport Andenes,69.292503,16.144199,EU,NO,Andenes
 ENAT,medium_airport,Alta Airport,69.97609711,23.37170029,EU,NO,Alta
-ENBL,small_airport,"Førde Airport, Bringeland",61.391102,5.75694,EU,NO,Førde
-ENBN,medium_airport,"Brønnøysund Airport, Brønnøy",65.461098,12.2175,EU,NO,Brønnøy
+ENBL,small_airport,Førde Airport Bringeland,61.391102,5.75694,EU,NO,Førde
+ENBN,medium_airport,Brønnøysund Airport Brønnøy,65.461098,12.2175,EU,NO,Brønnøy
 ENBO,medium_airport,Bodø Airport,67.269203,14.3653,EU,NO,Bodø
-ENBR,large_airport,"Bergen Airport, Flesland",60.2934,5.21814,EU,NO,Bergen
+ENBR,large_airport,Bergen Airport Flesland,60.2934,5.21814,EU,NO,Bergen
 ENBS,medium_airport,Båtsfjord Airport,70.60050201,29.69140053,EU,NO,Båtsfjord
 ENBV,medium_airport,Berlevåg Airport,70.871399,29.034201,EU,NO,Berlevåg
-ENCN,medium_airport,"Kristiansand Airport, Kjevik",58.204201,8.08537,EU,NO,Kjevik
+ENCN,medium_airport,Kristiansand Airport Kjevik,58.204201,8.08537,EU,NO,Kjevik
 ENDI,small_airport,Geilo Airport Dagali,60.41730118,8.518349648,EU,NO,Dagali
 ENDU,medium_airport,Bardufoss Airport,69.05580139,18.54039955,EU,NO,Målselv
-ENEV,medium_airport,"Harstad/Narvik Airport, Evenes",68.49130249,16.67810059,EU,NO,Evenes
-ENFG,medium_airport,"Fagernes Airport, Leirin",61.015598,9.28806,EU,NO,Fagernes
+ENEV,medium_airport,Harstad/Narvik Airport Evenes,68.49130249,16.67810059,EU,NO,Evenes
+ENFG,medium_airport,Fagernes Airport Leirin,61.015598,9.28806,EU,NO,Fagernes
 ENFL,medium_airport,Florø Airport,61.58359909,5.024720192,EU,NO,Florø
-ENGM,large_airport,"Oslo Airport, Gardermoen",60.193901,11.1004,EU,NO,Oslo
-ENHA,small_airport,"Hamar Lufthavn, Stavsberg",60.8181,11.068,EU,NO,Hamar
-ENHD,medium_airport,"Haugesund Airport, Karmøy",59.345299,5.20836,EU,NO,Karmøy
+ENGM,large_airport,Oslo Airport Gardermoen,60.193901,11.1004,EU,NO,Oslo
+ENHA,small_airport,Hamar Lufthavn Stavsberg,60.8181,11.068,EU,NO,Hamar
+ENHD,medium_airport,Haugesund Airport Karmøy,59.345299,5.20836,EU,NO,Karmøy
 ENHF,medium_airport,Hammerfest Airport,70.67970276,23.66860008,EU,NO,Hammerfest
 ENHK,small_airport,Hasvik Airport,70.48670197,22.13969994,EU,NO,Hasvik
-ENHV,medium_airport,"Honningsvåg Airport, Valan",71.009697,25.983601,EU,NO,Honningsvåg
-ENKB,medium_airport,"Kristiansund Airport, Kvernberget",63.111801,7.82452,EU,NO,Kvernberget
+ENHV,medium_airport,Honningsvåg Airport Valan,71.009697,25.983601,EU,NO,Honningsvåg
+ENKB,medium_airport,Kristiansund Airport Kvernberget,63.111801,7.82452,EU,NO,Kvernberget
 ENKL,small_airport,Gol Airport,60.791066,9.048672,EU,NO,Klanten flyplass
-ENKR,medium_airport,"Kirkenes Airport, Høybuktmoen",69.7258,29.8913,EU,NO,Kirkenes
+ENKR,medium_airport,Kirkenes Airport Høybuktmoen,69.7258,29.8913,EU,NO,Kirkenes
 ENLI,small_airport,Lista Airport,58.09949875,6.626049995,EU,NO,Farsund
 ENLK,medium_airport,Leknes Airport,68.15249634,13.6093998,EU,NO,Leknes
 ENMH,medium_airport,Mehamn Airport,71.02970123,27.82670021,EU,NO,Mehamn
-ENML,medium_airport,"Molde Airport, Årø",62.744701,7.2625,EU,NO,Årø
-ENMS,medium_airport,"Mosjøen Airport, Kjærstad",65.783997,13.2149,EU,NO,Mosjøen
-ENNA,medium_airport,"Lakselv Airport, Banak",70.068802,24.973499,EU,NO,Lakselv
+ENML,medium_airport,Molde Airport Årø,62.744701,7.2625,EU,NO,Årø
+ENMS,medium_airport,Mosjøen Airport Kjærstad,65.783997,13.2149,EU,NO,Mosjøen
+ENNA,medium_airport,Lakselv Airport Banak,70.068802,24.973499,EU,NO,Lakselv
 ENNK,closed,Narvik Framnes Airport,68.436897,17.3867,EU,NO,Narvik
 ENNM,small_airport,Namsos Airport,64.472198,11.5786,EU,NO,Namsos
 ENNO,medium_airport,Notodden Airport,59.565701,9.21222,EU,NO,Notodden
 ENOL,medium_airport,Ørland Airport,63.69889832,9.604000092,EU,NO,Ørland
-ENOV,medium_airport,"Ørsta-Volda Airport, Hovden",62.18000031,6.074100018,EU,NO,Ørsta
-ENRA,medium_airport,"Mo i Rana Airport, Røssvoll",66.36389923,14.30140018,EU,NO,Mo i Rana
-ENRM,medium_airport,"Rørvik Airport, Ryum",64.83830261,11.14610004,EU,NO,Rørvik
+ENOV,medium_airport,Ørsta-Volda Airport Hovden,62.18000031,6.074100018,EU,NO,Ørsta
+ENRA,medium_airport,Mo i Rana Airport Røssvoll,66.36389923,14.30140018,EU,NO,Mo i Rana
+ENRM,medium_airport,Rørvik Airport Ryum,64.83830261,11.14610004,EU,NO,Rørvik
 ENRO,medium_airport,Røros Airport,62.57839966,11.34230042,EU,NO,Røros
 ENRS,small_airport,Røst Airport,67.52780151,12.10330009,EU,NO,
-ENRY,medium_airport,"Moss Airport, Rygge",59.378817,10.785439,EU,NO,Oslo
-ENSB,medium_airport,"Svalbard Airport, Longyear",78.24610138,15.46560001,EU,NO,Longyearbyen
-ENSD,small_airport,"Sandane Airport, Anda",61.830002,6.10583,EU,NO,Sandane
-ENSG,small_airport,"Sogndal Airport, Haukåsen",61.156101,7.13778,EU,NO,Sogndal
-ENSH,medium_airport,"Svolvær Airport, Helle",68.243301,14.6692,EU,NO,Svolvær
-ENSK,medium_airport,"Stokmarknes Airport, Skagen",68.578827,15.033417,EU,NO,Hadsel
+ENRY,medium_airport,Moss Airport Rygge,59.378817,10.785439,EU,NO,Oslo
+ENSB,medium_airport,Svalbard Airport Longyear,78.24610138,15.46560001,EU,NO,Longyearbyen
+ENSD,small_airport,Sandane Airport Anda,61.830002,6.10583,EU,NO,Sandane
+ENSG,small_airport,Sogndal Airport Haukåsen,61.156101,7.13778,EU,NO,Sogndal
+ENSH,medium_airport,Svolvær Airport Helle,68.243301,14.6692,EU,NO,Svolvær
+ENSK,medium_airport,Stokmarknes Airport Skagen,68.578827,15.033417,EU,NO,Hadsel
 ENSN,medium_airport,Skien Airport,59.18500137,9.566940308,EU,NO,Geiteryggen
-ENSO,medium_airport,"Stord Airport, Sørstokken",59.791901,5.34085,EU,NO,Leirvik
+ENSO,medium_airport,Stord Airport Sørstokken,59.791901,5.34085,EU,NO,Leirvik
 ENSR,medium_airport,Sørkjosen Airport,69.78679657,20.95940018,EU,NO,Sørkjosen
-ENSS,medium_airport,"Vardø Airport, Svartnes",70.35540009,31.04490089,EU,NO,Vardø
-ENST,medium_airport,"Sandnessjøen Airport, Stokka",65.956802,12.4689,EU,NO,Alstahaug
-ENTC,large_airport,"Tromsø Airport, Langnes",69.683296,18.9189,EU,NO,Tromsø
-ENTO,medium_airport,"Sandefjord Airport, Torp",59.18669891,10.25860024,EU,NO,Torp
-ENVA,large_airport,"Trondheim Airport, Værnes",63.457802,10.924,EU,NO,Trondheim
+ENSS,medium_airport,Vardø Airport Svartnes,70.35540009,31.04490089,EU,NO,Vardø
+ENST,medium_airport,Sandnessjøen Airport Stokka,65.956802,12.4689,EU,NO,Alstahaug
+ENTC,large_airport,Tromsø Airport Langnes,69.683296,18.9189,EU,NO,Tromsø
+ENTO,medium_airport,Sandefjord Airport Torp,59.18669891,10.25860024,EU,NO,Torp
+ENVA,large_airport,Trondheim Airport Værnes,63.457802,10.924,EU,NO,Trondheim
 ENVD,medium_airport,Vadsø Airport,70.06529999,29.84469986,EU,NO,Vadsø
 ENVR,heliport,Værøy Heliport,67.654555,12.727257,EU,NO,Værøy
 ENY,medium_airport,Yan'an Nanniwan Airport,36.479413,109.464083,AS,CN,Yan'an
-ENZV,large_airport,"Stavanger Airport, Sola",58.876701,5.63778,EU,NO,Stavanger
+ENZV,large_airport,Stavanger Airport Sola,58.876701,5.63778,EU,NO,Stavanger
 EPBP,closed,Biała Podlaska Air Base,52.00078,23.132528,EU,PL,Biała Podlaska
 EPBY,medium_airport,Bydgoszcz Ignacy Jan Paderewski Airport,53.096802,17.977699,EU,PL,Bydgoszcz
 EPCH,small_airport,Częstochowa-Rudniki,50.884998,19.2047,EU,PL,Częstochowa
@@ -2225,7 +2224,7 @@ GATB,medium_airport,Timbuktu Airport,16.730499,-3.00758,AF,ML,Timbuktu
 GAYE,small_airport,Yélimané Airport,15.13300037,-10.56700039,AF,ML,Yélimané
 GAZ,small_airport,Guasopa Airport,-9.225918,152.944352,OC,PG,Woodlark (Muyua) Island
 GB-0070,closed,Hoy/Longhope Airfield,58.791779,-3.216076,EU,GB,Orkney Isle
-GB-DOC,small_airport,Dornoch Airfield,57.868999,-4.023,EU,GB,"Dornoch, Sunderland"
+GB-DOC,small_airport,Dornoch Airfield,57.868999,-4.023,EU,GB,Dornoch Sunderland
 GB-FLH,small_airport,Flotta Isle Airport,58.82580185,-3.142780066,EU,GB,Flotta Isle
 GB-FOA,small_airport,Foula Airfield,60.121725,-2.053202,EU,GB,Foula
 GBM,small_airport,Garbaharey Airport,3.32294,42.21309,AF,SO,Garbaharey
@@ -2233,9 +2232,9 @@ GB-OUK,small_airport,Out Skerries Airfield,60.4252,-0.75,EU,GB,Grunay Island
 GB-PSV,small_airport,Papa Stour Airport,60.321701,-1.69306,EU,GB,Papa Stour Island
 GBYD,large_airport,Banjul International Airport,13.338,-16.652201,AF,GM,Banjul
 GCFV,large_airport,Fuerteventura Airport,28.4527,-13.8638,EU,ES,Fuerteventura Island
-GCGM,small_airport,La Gomera Airport,28.0296,-17.2146,EU,ES,"Alajero, La Gomera Island"
+GCGM,small_airport,La Gomera Airport,28.0296,-17.2146,EU,ES,Alajero La Gomera Island
 GCHI,medium_airport,El Hierro Airport,27.8148,-17.8871,EU,ES,El Hierro Island
-GCLA,medium_airport,La Palma Airport,28.626499,-17.7556,EU,ES,"Sta Cruz de la Palma, La Palma Island"
+GCLA,medium_airport,La Palma Airport,28.626499,-17.7556,EU,ES,Sta Cruz de la Palma La Palma Island
 GCLP,large_airport,Gran Canaria Airport,27.9319,-15.3866,EU,ES,Gran Canaria Island
 GCRR,large_airport,César Manrique-Lanzarote Airport,28.945499,-13.6052,EU,ES,Lanzarote Island
 GCTS,large_airport,Tenerife Sur Airport,28.0445,-16.5725,EU,ES,Tenerife
@@ -2662,7 +2661,7 @@ ID-TMY,small_airport,Tiom Airport,-3.9256,138.4555,AS,ID,Tiom-Papua Island
 ID-ZEG,small_airport,Senggo Airport,-5.6908,139.3502,AS,ID,Senggo-Papua Island
 ID-ZGP,medium_airport,Bilogai-Sugapa Airport,-3.73956,137.031998,AS,ID,Sugapa-Papua Island
 ILX,closed,Ileg Airport,-5.4917,145.8022,OC,PG,Ileg
-IMA,small_airport,Iamalele Airport,-9.5107,150.5246,OC,PG,"Iamalele, Fergusson Island"
+IMA,small_airport,Iamalele Airport,-9.5107,150.5246,OC,PG,Iamalele Fergusson Island
 IMG,small_airport,Inhaminga Airport,-18.41,35.0045,AF,MZ,Inhaminga
 IN-0012,small_airport,Pakyong Airport,27.2313,88.587196,AS,IN,Pakyong
 IN-0070,small_airport,Jindal Vijaynagar Airport,15.175921,76.63303,AS,IN,Toranagallu
@@ -2690,7 +2689,7 @@ JIQ,medium_airport,Qianjiang Wulingshan Airport,29.51333333,108.8311111,AS,CN,Qi
 JJD,medium_airport,Jericoacoara - Comandante Ariston Pessoa Regional Airport,-2.906425,-40.357338,SA,BR,Cruz
 JLA,small_airport,Quartz Creek Airport,60.48270035,-149.7189941,NA,US,Cooper Landing
 JMB,small_airport,Jamba Airport,-14.698193,16.070148,AF,AO,Jamba
-JNZ,medium_airport,Jinzhou Bay Airport,40.936032,121.277114,AS,CN,"Linghai, Jinzhou"
+JNZ,medium_airport,Jinzhou Bay Airport,40.936032,121.277114,AS,CN,Linghai Jinzhou
 JOP,small_airport,Josephstaal Airport,-4.747083333,145.0070833,OC,PG,Josephstaal
 JPN,heliport,Pentagon Army Heliport,38.874908,-77.056682,NA,US,Arlington
 JRA,heliport,West 30th St. Heliport,40.754501,-74.007103,NA,US,New York
@@ -3222,7 +3221,7 @@ KELN,small_airport,Bowers Field,47.03300095,-120.5309982,NA,US,Ellensburg
 KELO,medium_airport,Ely Municipal Airport,47.82450104,-91.83070374,NA,US,Ely
 KELP,medium_airport,El Paso International Airport,31.80719948,-106.3779984,NA,US,El Paso
 KELY,medium_airport,Ely Airport Yelland Field,39.29970169,-114.8420029,NA,US,Ely
-KELZ,small_airport,"Wellsville Municipal Arpt,Tarantine Field",42.10950089,-77.98999786,NA,US,Wellsville
+KELZ,small_airport,Wellsville Municipal ArptTarantine Field,42.10950089,-77.98999786,NA,US,Wellsville
 KEMM,small_airport,Kemmerer Municipal Airport,41.82410049,-110.5569992,NA,US,Kemmerer
 KEMP,small_airport,Emporia Municipal Airport,38.33209991,-96.19120026,NA,US,Emporia
 KE-MRE,small_airport,Mara Lodges Airport,-1.178275943,35.11130905,AF,KE,Mara Lodges
@@ -3468,7 +3467,7 @@ KHTO,small_airport,East Hampton Town Airport,40.959599,-72.251801,NA,US,East Ham
 KHTS,medium_airport,Tri-State/Milton J. Ferguson Field,38.366699,-82.557999,NA,US,Huntington
 KHTW,small_airport,Lawrence County Airpark,38.4193,-82.494301,NA,US,Chesapeake/Huntington Wva
 KHUA,medium_airport,Redstone Army Air Field,34.67869949,-86.68479919,NA,US,Redstone Arsnl Huntsville
-KHUF,medium_airport,"Terre Haute Regional Airport, Hulman Field",39.4515,-87.307602,NA,US,Terre Haute
+KHUF,medium_airport,Terre Haute Regional Airport Hulman Field,39.4515,-87.307602,NA,US,Terre Haute
 KHUL,medium_airport,Houlton International Airport,46.12310028,-67.792099,NA,US,Houlton
 KHUM,small_airport,Houma Terrebonne Airport,29.56649971,-90.66040039,NA,US,Houma
 KHUT,medium_airport,Hutchinson Municipal Airport,38.06549835,-97.86060333,NA,US,Hutchinson
@@ -3487,7 +3486,7 @@ KHZL,small_airport,Hazleton Municipal Airport,40.98680115,-75.99490356,NA,US,Haz
 KHZY,medium_airport,Northeast Ohio Regional Airport,41.778,-80.695503,NA,US,Ashtabula
 KIA,closed,Kaiapit Airport,-6.275,146.27,OC,PG,Kaiapit
 KIAB,medium_airport,Mc Connell Air Force Base,37.62189865,-97.26820374,NA,US,Wichita
-KIAD,large_airport,Washington Dulles International Airport,38.9445,-77.455803,NA,US,"Washington, DC"
+KIAD,large_airport,Washington Dulles International Airport,38.9445,-77.455803,NA,US,Washington DC
 KIAG,medium_airport,Niagara Falls International Airport,43.1073,-78.946198,NA,US,Niagara Falls
 KIAH,large_airport,George Bush Intercontinental Houston Airport,29.9843998,-95.34140015,NA,US,Houston
 KIB,seaplane_base,Ivanof Bay Seaplane Base,55.89749908,-159.4889984,NA,US,Ivanof Bay
@@ -3906,7 +3905,7 @@ KPAM,medium_airport,Tyndall Air Force Base,30.069599,-85.575401,NA,US,Panama Cit
 KPAN,small_airport,Payson Airport,34.25680161,-111.3389969,NA,US,Payson
 KPAO,small_airport,Palo Alto Airport of Santa Clara County,37.46110153,-122.1149979,NA,US,Palo Alto
 KPB,seaplane_base,Point Baker Seaplane Base,56.35189819,-133.6230011,NA,US,Point Baker
-KPBF,medium_airport,"Pine Bluff Regional Airport, Grider Field",34.1731,-91.9356,NA,US,Pine Bluff
+KPBF,medium_airport,Pine Bluff Regional Airport Grider Field,34.1731,-91.9356,NA,US,Pine Bluff
 KPBG,medium_airport,Plattsburgh International Airport,44.65090179,-73.4681015,NA,US,Plattsburgh
 KPBI,large_airport,Palm Beach International Airport,26.68320084,-80.09559631,NA,US,West Palm Beach
 KPBX,small_airport,Pike County-Hatcher Field,37.5617981,-82.56639862,NA,US,Pikeville
@@ -4000,7 +3999,7 @@ KPWT,medium_airport,Bremerton National Airport,47.49020004,-122.7649994,NA,US,Br
 KPY,seaplane_base,Port Bailey Seaplane Base,57.93009949,-153.0410004,NA,US,Port Bailey
 KPYM,small_airport,Plymouth Municipal Airport,41.909,-70.728798,NA,US,Plymouth
 KQL,small_airport,Kol Airport,-5.731166667,144.846,OC,PG,Kol
-KR-0018,heliport,Chuja Port Heliport,33.941188,126.324899,AS,KR,"Chuja, Hach’uja-do (Chujado Islands)"
+KR-0018,heliport,Chuja Port Heliport,33.941188,126.324899,AS,KR,Chuja Hach’uja-do (Chujado Islands)
 KRAC,small_airport,John H Batten Airport,42.76060104,-87.81520081,NA,US,Racine
 KRAL,medium_airport,Riverside Municipal Airport,33.9519,-117.445,NA,US,Riverside
 KRAP,medium_airport,Rapid City Regional Airport,44.04529953,-103.0569992,NA,US,Rapid City
@@ -4794,7 +4793,7 @@ LTAW,medium_airport,Tokat Airport,40.30743027,36.36740875,AS,TR,Tokat
 LTAY,medium_airport,Çardak Airport,37.78559875,29.70129967,AS,TR,Denizli
 LTAZ,small_airport,Nevşehir Kapadokya Airport,38.7719,34.5345,AS,TR,Nevşehir
 LTB,closed,Latrobe Airport,-41.23518803,146.3961697,OC,AU,Latrobe
-LTBA,large_airport,İstanbul Atatürk Airport,40.971913,28.823714,EU,TR,"Bakırköy, Istanbul"
+LTBA,large_airport,İstanbul Atatürk Airport,40.971913,28.823714,EU,TR,Bakırköy Istanbul
 LTBD,small_airport,Çıldır Airport,37.81499863,27.89529991,AS,TR,Aydın
 LTBF,medium_airport,Balıkesir Merkez Airport,39.61930084,27.9260006,AS,TR,
 LTBG,medium_airport,Bandırma Airport,40.318001,27.977699,AS,TR,Bandırma
@@ -4838,8 +4837,8 @@ LTFD,medium_airport,Balıkesir Koca Seyit Airport,39.5546,27.0138,AS,TR,Edremit
 LTFE,large_airport,Milas Bodrum International Airport,37.25059891,27.66430092,AS,TR,Bodrum
 LTFG,medium_airport,Gazipaşa-Alanya Airport,36.299217,32.300598,AS,TR,Gazipaşa
 LTFH,medium_airport,Samsun-Çarşamba Airport,41.254501,36.567101,AS,TR,Samsun
-LTFJ,large_airport,Istanbul Sabiha Gökçen International Airport,40.898602,29.3092,AS,TR,"Pendik, Istanbul"
-LTFM,large_airport,İstanbul Airport,41.261297,28.741951,EU,TR,"Arnavutköy, Istanbul"
+LTFJ,large_airport,Istanbul Sabiha Gökçen International Airport,40.898602,29.3092,AS,TR,Pendik Istanbul
+LTFM,large_airport,İstanbul Airport,41.261297,28.741951,EU,TR,Arnavutköy Istanbul
 LTH,closed,Lathrop Wells Airport / Jackass Aeropark,36.6342,-116.4135,NA,US,Amargosa Valley
 LUBL,medium_airport,Bălți International Airport,47.837666,27.781108,EU,MD,Bălți
 LUKK,medium_airport,Chişinău International Airport,46.92770004,28.93099976,EU,MD,Chişinău
@@ -4893,7 +4892,7 @@ MDPP,medium_airport,Gregorio Luperon International Airport,19.75790024,-70.56999
 MDSD,large_airport,Las Américas International Airport,18.42970085,-69.66889954,NA,DO,Santo Domingo
 MDSJ,closed,San Juan Airport,18.83333206,-71.23332977,NA,DO,San Juan
 MDST,medium_airport,Cibao International Airport,19.40609932,-70.60469818,NA,DO,Santiago
-MDV,small_airport,Médouneu Airport,1.0085,10.7552,AF,GQ,"Médouneu, Gabon"
+MDV,small_airport,Médouneu Airport,1.0085,10.7552,AF,GQ,Médouneu Gabon
 ME16,small_airport,Loring International Airport,46.950401,-67.885902,NA,US,Limestone
 MEF,small_airport,Melfi Airport,11.060192,17.944495,AF,TD,Melfi
 MG-0001,small_airport,Ambohibary Airport,-18.9175,48.21819444,AF,MG,Moramanga
@@ -5254,7 +5253,7 @@ NCRG,large_airport,Rarotonga International Airport,-21.20269966,-159.8059998,OC,
 NDI,small_airport,Namudi Airport,-9.47375,148.3294167,OC,PG,Namudi
 NDN,small_airport,Nadunumu Airport,-9.143555556,147.68425,OC,PG,Nadunumu
 NE69,small_airport,Browns Airport,40.86750031,-96.11000061,NA,US,Weeping Water
-NFBG,closed,Biaugunu Airport,-16.44937993,179.7401047,OC,FJ,"Saqani, Cakaudrove"
+NFBG,closed,Biaugunu Airport,-16.44937993,179.7401047,OC,FJ,Saqani Cakaudrove
 NFCI,small_airport,Cicia Airport,-17.74329948,-179.3419952,OC,FJ,Cicia
 NFCS,seaplane_base,Castaway Island Seaplane Base,-17.7358,177.129,OC,FJ,Castaway Island
 NFFN,medium_airport,Nadi International Airport,-17.7553997,177.4429932,OC,FJ,Nadi
@@ -5281,7 +5280,7 @@ NFSW,small_airport,Yasawa Island Airport,-16.75889969,177.5449982,OC,FJ,Yasawa I
 NFTE,small_airport,Kaufana Airport,-21.37829971,-174.9579926,OC,TO,Eua Island
 NFTF,medium_airport,Fua'amotu International Airport,-21.24119949,-175.1499939,OC,TO,Nuku'alofa
 NFTL,medium_airport,Lifuka Island Airport,-19.77700043,-174.3410034,OC,TO,Lifuka
-NFTO,small_airport,Mata'aho Airport,-15.57079983,-175.6329956,OC,TO,"Angaha, Niuafo'ou Island"
+NFTO,small_airport,Mata'aho Airport,-15.57079983,-175.6329956,OC,TO,Angaha Niuafo'ou Island
 NFTP,small_airport,Kuini Lavenia Airport,-15.977297,-173.791089,OC,TO,Niuatoputapu
 NFTV,medium_airport,Vava'u International Airport,-18.58530045,-173.9620056,OC,TO,Vava'u Island
 NFUL,seaplane_base,Turtle Island Seaplane Base,-16.966,177.368,OC,FJ,Nanuya Levu Island
@@ -6008,7 +6007,7 @@ PG-0100,small_airport,Stockholm Landing Strip,-4.35,151.55,OC,PG,Stockholm
 PG-AKG,small_airport,Anguganak Airport,-3.560504,142.217307,OC,PG,Anguganak
 PG-ATP,small_airport,Tadji Airport,-3.198191804,142.4309635,OC,PG,Aitape
 PG-AWB,small_airport,Awaba Airport,-8.006110191,142.7483521,OC,PG,Awaba
-PG-BAA,small_airport,Bialla Airport,-5.330560207,151.0079956,OC,PG,"Bialla, Matalilu, Ewase"
+PG-BAA,small_airport,Bialla Airport,-5.330560207,151.0079956,OC,PG,Bialla Matalilu Ewase
 PG-CVB,small_airport,Chungribu Airport,-4.806620121,144.7149963,OC,PG,Chungribu
 PGE,small_airport,Yegepa Airport,-7.134444444,146.1563889,OC,PG,
 PG-GMI,small_airport,Gasmata Island Airport,-6.271110058,150.3309937,OC,PG,Gasmata Island
@@ -6030,7 +6029,7 @@ PG-OPU,medium_airport,Balimo Airport,-8.050000191,142.9329987,OC,PG,Balimo
 PGP,closed,Roça Porto Alegre Airport,0.038624,6.515965,AF,ST,Porto Alegro
 PGRO,medium_airport,Rota International Airport,14.1743,145.242996,OC,MP,Rota Island
 PG-SKC,small_airport,Suki Airport,-8.0466,141.7222,OC,PG,Suki
-PGSN,medium_airport,Saipan International Airport,15.119,145.729004,OC,MP,"I Fadang, Saipan"
+PGSN,medium_airport,Saipan International Airport,15.119,145.729004,OC,MP,I Fadang Saipan
 PG-TFI,small_airport,Tufi Airport,-9.075954437,149.3198395,OC,PG,Tufi
 PG-TFM,small_airport,Telefomin Airport,-5.12608,141.641922,OC,PG,Telefomin
 PG-TLO,small_airport,Tol Airport,-4.980830193,152.0099945,OC,PG,Tol
@@ -6223,7 +6222,7 @@ RKJM,closed,Mokpo Airport,34.758979,126.380324,AS,KR,Gonghang-ro (Mokpo)
 RKJU,small_airport,Jeonju (G 703) Air Base,35.878289,127.11894,AS,KR,Jeonju
 RKJY,medium_airport,Yeosu Airport,34.84230042,127.6169968,AS,KR,Yeosu
 RKNC,closed,Camp Page (A-306) Airport,37.883801,127.718002,AS,KR,Chuncheon
-RKND,closed,Sokcho (Mulchi Airfield) (G-407/K-50) Airport,38.142117,128.598318,AS,KR,"Jangsan-ri, Ganghyeon-myeon"
+RKND,closed,Sokcho (Mulchi Airfield) (G-407/K-50) Airport,38.142117,128.598318,AS,KR,Jangsan-ri Ganghyeon-myeon
 RKNN,medium_airport,Gangneung Airport (K-18),37.753601,128.943915,AS,KR,Gangneung
 RKNW,medium_airport,Wonju Airport / Hoengseong Air Base (K-38/K-46),37.437113,127.960051,AS,KR,Wonju
 RKNY,medium_airport,Yangyang International Airport,38.061298,128.669006,AS,KR,Gonghang-ro
@@ -7240,7 +7239,7 @@ SYSK,small_airport,Skeldon Airport,5.8599,-57.14894,SA,GY,Skeldon
 SZN,small_airport,Santa Cruz Island Airport,34.06007,-119.915229,NA,US,Santa Cruz Island
 SZP,small_airport,Santa Paula Airport,34.34719849,-119.060997,NA,US,Santa Paula
 TAA,closed,Tarapaina Airport,-9.414,161.358,OC,SB,Tarapaina
-TAO,large_airport,Qingdao Jiaodong International Airport,36.361953,120.088171,AS,CN,"Jiaozhou, Qingdao"
+TAO,large_airport,Qingdao Jiaodong International Airport,36.361953,120.088171,AS,CN,Jiaozhou Qingdao
 TAPA,medium_airport,V.C. Bird International Airport,17.1367,-61.792702,NA,AG,St. John's
 TAPH,medium_airport,Codrington Airport,17.635799,-61.828602,NA,AG,Codrington
 TAV,closed,Tau Airport,-14.23178,-169.51101,OC,AS,Tau
@@ -7294,7 +7293,7 @@ TLPL,large_airport,Hewanorra International Airport,13.7332,-60.952599,NA,LC,Vieu
 TLT,small_airport,Tuluksak Airport,61.09680176,-160.9689941,NA,US,Tuluksak
 TM-UT51,small_airport,Kerki Airport,37.808998,65.212502,AS,TM,Kerki
 TNCA,large_airport,Queen Beatrix International Airport,12.5014,-70.015198,NA,AW,Oranjestad
-TNCB,large_airport,Flamingo International Airport,12.131,-68.268501,NA,BQ,"Kralendijk, Bonaire"
+TNCB,large_airport,Flamingo International Airport,12.131,-68.268501,NA,BQ,Kralendijk Bonaire
 TNCC,large_airport,Hato International Airport,12.1889,-68.959801,NA,CW,Willemstad
 TNCE,medium_airport,F. D. Roosevelt Airport,17.49650002,-62.97940063,NA,BQ,Sint Eustatius
 TNCM,large_airport,Princess Juliana International Airport,18.041,-63.108898,NA,SX,Saint Martin
@@ -7452,7 +7451,7 @@ UIKP,small_airport,Preobrazheniye Airport,42.921698,133.904438,EU,RU,Preobrazhen
 UITT,medium_airport,Ust-Kut Airport,56.8567009,105.7300034,AS,RU,Ust-Kut
 UIUU,medium_airport,Baikal International Airport,51.808614,107.439652,EU,RU,Ulan Ude
 UJAP,small_airport,Ujae Atoll Airport,8.928059578,165.7619934,OC,MH,Ujae Atoll
-UJN,small_airport,Uljin Airport,36.777049,129.461861,AS,KR,"Bongsan-ri, Uljin"
+UJN,small_airport,Uljin Airport,36.777049,129.461861,AS,KR,Bongsan-ri Uljin
 UKBB,large_airport,Boryspil International Airport,50.345001,30.894699,EU,UA,Kiev
 UKCC,closed,Donetsk Sergei Prokofiev International Airport,48.075072,37.72527,EU,UA,Donetsk
 UKCK,small_airport,Kramatorsk Airport,48.706799,37.630922,EU,UA,Kramatorsk
@@ -7665,7 +7664,7 @@ UWUU,large_airport,Ufa International Airport,54.55749893,55.87440109,EU,RU,Ufa
 UWWW,large_airport,Kurumoch International Airport,53.50490189,50.16429901,EU,RU,Samara
 UZM,small_airport,Hope Bay Aerodrome,68.156,-106.618,NA,CA,Hope Bay
 UZR,small_airport,Urzhar Airport,47.09115,81.66521,AS,KZ,Urzhar
-VA1G,medium_airport,"Rewa Airport, Chorhata, REWA",24.503401,81.220299,AS,IN,Rewa
+VA1G,medium_airport,Rewa Airport Chorhata REWA,24.503401,81.220299,AS,IN,Rewa
 VA1P,small_airport,Diu Airport,20.7131,70.921097,AS,IN,Diu
 VA2C,medium_airport,Birsi Airport,21.526817,80.290347,AS,IN,Gondia
 VAAH,medium_airport,Sardar Vallabhbhai Patel International Airport,23.07719994,72.63469696,AS,IN,Ahmedabad
@@ -7732,7 +7731,7 @@ VE-0206,small_airport,La Guaira Airport,10.53332996,-67.03333282,SA,VE,La Guaira
 VE-0207,small_airport,Macagua Airport,8.2788,-62.6652,SA,VE,Ciudad Guayana
 VE-0208,small_airport,San Salvador de Paul Airport,7,-62,SA,VE,San Salvador de Paul
 VE-0209,small_airport,Wonken Airport,5.25,-61.73333359,SA,VE,Wonken
-VE89,small_airport,Darbhanga Airport,26.192801,85.916901,AS,IN,"Darbhanga, Bihar, India"
+VE89,small_airport,Darbhanga Airport,26.192801,85.916901,AS,IN,Darbhanga Bihar India
 VEAN,medium_airport,Along Airport,28.1753006,94.80200195,AS,IN,
 VEAT,medium_airport,Agartala - Maharaja Bir Bikram Airport,23.886999,91.240402,AS,IN,Agartala
 VEBD,medium_airport,Bagdogra Airport,26.68120003,88.32859802,AS,IN,Siliguri
@@ -7784,7 +7783,7 @@ VGSH,small_airport,Shamshernagar Airport,24.398333,91.916944,AS,BD,Shamshernagar
 VGSY,medium_airport,Osmany International Airport,24.963832,91.864843,AS,BD,Sylhet
 VGZR,large_airport,Hazrat Shahjalal International Airport,23.843347,90.397783,AS,BD,Dhaka
 VHHH,large_airport,Hong Kong International Airport,22.308901,113.915001,AS,HK,Hong Kong
-VHST,heliport,Shun Tak Heliport,22.288868,114.152369,AS,HK,"Central and Western, Hong Kong Island"
+VHST,heliport,Shun Tak Heliport,22.288868,114.152369,AS,HK,Central and Western Hong Kong Island
 VI22,seaplane_base,Charlotte Amalie Harbor Seaplane Base,18.33860016,-64.94069672,NA,VI,Charlotte Amalie St Thomas
 VI32,seaplane_base,Christiansted Harbor Seaplane Base,17.74720001,-64.70490265,NA,VI,Christiansted St Croix
 VIAG,medium_airport,Agra Airport / Agra Air Force Station,27.157683,77.960942,AS,IN,Agra
@@ -7987,7 +7986,7 @@ VVDB,medium_airport,Dien Bien Phu Airport,21.39749908,103.0080032,AS,VN,Dien Bie
 VVDL,medium_airport,Lien Khuong Airport,11.75,108.366997,AS,VN,Da Lat
 VVDN,medium_airport,Da Nang International Airport,16.0439,108.198997,AS,VN,Da Nang
 VVN,small_airport,Las Malvinas/Echarate Airport,-11.854861,-72.939332,SA,PE,Las Malvinas
-VVNB,large_airport,Noi Bai International Airport,21.221201,105.806999,AS,VN,"Soc Son, Hanoi"
+VVNB,large_airport,Noi Bai International Airport,21.221201,105.806999,AS,VN,Soc Son Hanoi
 VVNS,small_airport,Na-San Airport,21.21699905,104.0329971,AS,VN,Son-La
 VVNT,closed,Nha Trang Air Base,12.2275,109.192001,AS,VN,Nha Trang
 VVPB,medium_airport,Phu Bai International Airport,16.401501,107.703003,AS,VN,Huế
@@ -8131,16 +8130,16 @@ WAOS,small_airport,Sampit(Hasan) Airport,-2.501389,112.975555,AS,ID,Sampit-Borne
 WAPA,small_airport,Amahai Airport,-3.34800005,128.9259949,AS,ID,Amahai-Seram Island
 WAPC,small_airport,Bandanaira Airport,-4.5214,129.9054,AS,ID,Banda-Naira Island
 WAPD,small_airport,Rar Gwamar Airport,-5.772220135,134.2120056,AS,ID,Dobo-Warmar Island
-WAPE,small_airport,"Mangole Airport, Falabisahaya",-1.87579,125.8300018,AS,ID,Mangole Island
+WAPE,small_airport,Mangole Airport Falabisahaya,-1.87579,125.8300018,AS,ID,Mangole Island
 WAPF,medium_airport,Karel Sadsuitubun Airport,-5.760278,132.759444,AS,ID,Langgur
 WAPG,small_airport,Namrole Airport,-3.8548,126.7012,AS,ID,Namrole-Buru Island
 WAPH,small_airport,Oesman Sadik Airport,-0.635259,127.501999,AS,ID,Labuha-Halmahera Island
 WAPK,small_airport,Nangasuri Airport,-6.06613,134.273971,AS,ID,Maikoor Island
 WAPN,small_airport,Emalamo Sanana Airport,-2.080509901,125.9670029,AS,ID,Sanana-Seram Island
-WAPP,medium_airport,"Pattimura Airport, Ambon",-3.710259914,128.0890045,AS,ID,Ambon
+WAPP,medium_airport,Pattimura Airport Ambon,-3.710259914,128.0890045,AS,ID,Ambon
 WAPR,small_airport,Namlea Airport,-3.235569954,127.0999985,AS,ID,Namlea-Buru Island
 WAPT,small_airport,Taliabu Island Airport,-1.642629981,124.5589981,AS,ID,Tikong-Taliabu Island
-WAPV,small_airport,"Wahai,Seram Island",-2.8114,129.484,AS,ID,Seram Island
+WAPV,small_airport,WahaiSeram Island,-2.8114,129.484,AS,ID,Seram Island
 WARA,small_airport,Abdul Rachman Saleh Airport,-7.92656,112.714996,AS,ID,Malang
 WARC,small_airport,Ngloram Airport,-7.194841667,111.5481667,AS,ID,Tjepu-Java Island
 WARJ,medium_airport,Adisutjipto International Airport,-7.78818,110.431999,AS,ID,Yogyakarta-Java Island
@@ -8168,7 +8167,7 @@ WATM,small_airport,Mali Airport,-8.132340431,124.5970001,AS,ID,Alor Island
 WATO,small_airport,Komodo Airport,-8.48666,119.889,AS,ID,Labuan Bajo - Flores Island
 WATS,small_airport,Sabu-Tardanu Airport,-10.4924,121.8482,AS,ID,Sabu-Sawu Island
 WATT,small_airport,El Tari Airport,-10.17160034,123.6709976,AS,ID,Kupang-Timor Island
-WAVV,medium_airport,Wamena Airport,-4.10251,138.957001,AS,ID,"Wamena, Jayawijaya Regency, Papua Province"
+WAVV,medium_airport,Wamena Airport,-4.10251,138.957001,AS,ID,Wamena Jayawijaya Regency Papua Province
 WAWB,small_airport,Betoambari Airport,-5.486879826,122.5690002,AS,ID,Bau Bau-Butung Island
 WAWD,medium_airport,Matahora Airport,-5.293996,123.634,AS,ID,Wangi-wangi Island
 WAWH,small_airport,Selayar - Haji Aroeppala Airport,-6.17921,120.437479,AS,ID,Benteng
@@ -8215,7 +8214,7 @@ WBKT,small_airport,Kudat Airport,6.924111,116.837068,AS,MY,Kudat
 WBKW,medium_airport,Tawau Airport,4.320159912,118.1279984,AS,MY,Tawau
 WBMU,medium_airport,Mulu Airport,4.04832983,114.8050003,AS,MY,Mulu
 WBSB,large_airport,Brunei International Airport,4.9442,114.928001,AS,BN,Bandar Seri Begawan
-WDA,small_airport,"Al Ain Airport Ain District, Shabwah Governorate, Yemen",14.859579,45.545705,AS,YE,Ain District
+WDA,small_airport,Al Ain Airport Ain District Shabwah Governorate Yemen,14.859579,45.545705,AS,YE,Ain District
 WEA,small_airport,Parker County Airport,32.74629974,-97.68240356,NA,US,Weatherford
 WED,small_airport,Wedau Airport,-10.0954,150.0826,OC,PG,Wedau
 WGU,closed,Wagau Airport,-6.8519,146.8022,OC,PG,Wagau
@@ -8338,7 +8337,7 @@ XBN,small_airport,Biniguni Airport,-9.6425,149.303889,OC,PG,Biniguni
 XIG,small_airport,Xinguara Municipal Airport,-7.0906,-49.9765,SA,BR,Xinguara
 XLO,closed,Long Xuyên Airport,10.330134,105.473144,AS,VN,Long Xuyên
 XMA,small_airport,Maramag Airport,7.7538,125.0333,AS,PH,Maramag
-XMN,closed,Xiamen Xiang'an Airport (under construction),24.5556,118.3534,AS,CN,"Xiang'an, Xiamen"
+XMN,closed,Xiamen Xiang'an Airport (under construction),24.5556,118.3534,AS,CN,Xiang'an Xiamen
 XNG,closed,Quảng Ngãi Airfield,15.115474,108.771816,AS,VN,Quảng Ngãi
 XRQ,small_airport,New Barag Right Banner Baogede Airport,48.575585,116.939382,AS,CN,New Barag Right Banner
 XUBS,medium_airport,Smolensk North Airport,54.824,32.025,EU,RU,Smolensk
@@ -9082,7 +9081,7 @@ ZSAQ,medium_airport,Anqing Tianzhushan Airport / Anqing North Air Base,30.582199
 ZSBB,medium_airport,Bengbu Airport,32.84773333,117.3202444,AS,CN,Bengbu
 ZSCG,medium_airport,Changzhou Benniu International Airport,31.919701,119.778999,AS,CN,Changzhou
 ZSCN,large_airport,Nanchang Changbei International Airport,28.864815,115.90271,AS,CN,Nanchang
-ZSFY,medium_airport,Fuyang Xiguan Airport,32.882157,115.734364,AS,CN,"Yingzhou, Fuyang"
+ZSFY,medium_airport,Fuyang Xiguan Airport,32.882157,115.734364,AS,CN,Yingzhou Fuyang
 ZSFZ,large_airport,Fuzhou Changle International Airport,25.934669,119.66318,AS,CN,Fuzhou
 ZSGZ,small_airport,Ganzhou Huangjin Airport,25.853333,114.778889,AS,CN,Ganzhou
 ZSHC,large_airport,Hangzhou Xiaoshan International Airport,30.23609,120.428865,AS,CN,Hangzhou
@@ -9117,7 +9116,7 @@ ZSYN,medium_airport,Yancheng Nanyang International Airport,33.425833,120.203056,
 ZSYW,medium_airport,Yiwu Airport,29.34469986,120.0319977,AS,CN,Yiwu
 ZSZS,small_airport,Zhoushan Putuoshan Airport,29.9342,122.362,AS,CN,Zhoushan
 ZUAL,medium_airport,Ngari Gunsa Airport,32.1,80.05305556,AS,CN,Shiquanhe
-ZUAS,medium_airport,Anshun Huangguoshu Airport,26.260556,105.873333,AS,CN,"Xixiu, Anshun"
+ZUAS,medium_airport,Anshun Huangguoshu Airport,26.260556,105.873333,AS,CN,Xixiu Anshun
 ZUBD,medium_airport,Qamdo Bangda Airport,30.55360031,97.10829926,AS,CN,Bangda
 ZUBJ,medium_airport,Bijie Feixiong Airport,27.267066,105.472097,AS,CN,Bijie
 ZUCK,large_airport,Chongqing Jiangbei International Airport,29.712254,106.651895,AS,CN,Chongqing
@@ -9142,7 +9141,7 @@ ZUNP,medium_airport,Liping Airport,26.32217,109.1499,AS,CN,Liping
 ZUNZ,medium_airport,Nyingchi Mainling Airport,29.303301,94.335297,AS,CN,Nyingchi
 ZUPS,medium_airport,Liupanshui Yuezhao Airport,26.609417,104.979,AS,CN,Liupanshui
 ZUTC,medium_airport,Tengchong Tuofeng Airport,24.93805556,98.48583333,AS,CN,Tengchong
-ZUTF,large_airport,Chengdu Tianfu International Airport,30.31252,104.441284,AS,CN,"Jianyang, Chengdu"
+ZUTF,large_airport,Chengdu Tianfu International Airport,30.31252,104.441284,AS,CN,Jianyang Chengdu
 ZUTR,medium_airport,Tongren Fenghuang Airport,27.883333,109.308889,AS,CN,
 ZUUU,large_airport,Chengdu Shuangliu International Airport,30.558257,103.945966,AS,CN,Chengdu
 ZUWL,medium_airport,Chongqing Xiannüshan Airport,29.465658,107.693664,AS,CN,Wulong
@@ -9175,8 +9174,8 @@ ZWYN,small_airport,Yining Airport,43.955799,81.330299,AS,CN,Yining
 ZWYT,small_airport,Yutian Wanfang Airport,36.8085,81.7827,AS,CN,Hotan (Yutian)
 ZYAS,medium_airport,Anshan Teng'ao Airport / Anshan Air Base,41.105301,122.853996,AS,CN,Anshan
 ZYCC,large_airport,Changchun Longjia International Airport,43.996201,125.684998,AS,CN,Changchun
-ZYCH,medium_airport,Changhai Airport,39.266667,122.666944,AS,CN,"Changhai, Dalian"
-ZYCY,medium_airport,Chaoyang Airport,41.538101,120.434998,AS,CN,"Shuangta, Chaoyang"
+ZYCH,medium_airport,Changhai Airport,39.266667,122.666944,AS,CN,Changhai Dalian
+ZYCY,medium_airport,Chaoyang Airport,41.538101,120.434998,AS,CN,Shuangta Chaoyang
 ZYDU,medium_airport,Wudalianchi Dedu Airport,48.441037,126.128374,AS,CN,Heihe
 ZYFY,medium_airport,Fuyuan Dongji Aiport,48.197219,134.36298,AS,CN,Fuyuan
 ZYHB,large_airport,Harbin Taiping International Airport,45.623402,126.25,AS,CN,Harbin
@@ -9191,10 +9190,10 @@ ZYMD,medium_airport,Mudanjiang Hailang International Airport,44.52410126,129.569
 ZYMH,medium_airport,Mohe Gulian Airport,52.916871,122.422759,AS,CN,Mohe
 ZYQQ,medium_airport,Qiqihar Sanjiazi Airport,47.23960114,123.9179993,AS,CN,Qiqihar
 ZYSQ,medium_airport,Songyuan Chaganhu Airport,44.938114,124.550178,AS,CN,Qian Gorlos Mongol Autonomous County
-ZYTL,large_airport,Dalian Zhoushuizi International Airport,38.965698,121.539001,AS,CN,"Ganjingzi, Dalian"
+ZYTL,large_airport,Dalian Zhoushuizi International Airport,38.965698,121.539001,AS,CN,Ganjingzi Dalian
 ZYTN,medium_airport,Tonghua Sanyuanpu Airport,42.25388889,125.7033333,AS,CN,Tonghua
-ZYTX,large_airport,Shenyang Taoxian International Airport,41.639801,123.483002,AS,CN,"Hunnan, Shenyang"
+ZYTX,large_airport,Shenyang Taoxian International Airport,41.639801,123.483002,AS,CN,Hunnan Shenyang
 ZYXW,closed,Mt Logan Airstrip,60.79299,-138.694027,NA,CA,Unorganized Yukon
 ZYYJ,medium_airport,Yanji Chaoyangchuan Airport,42.88280106,129.451004,AS,CN,Yanji
-ZYYK,medium_airport,Yingkou Lanqi Airport,40.542524,122.3586,AS,CN,"Laobian, Yingkou"
+ZYYK,medium_airport,Yingkou Lanqi Airport,40.542524,122.3586,AS,CN,Laobian Yingkou
 ZZZW,closed,Scandium City Heliport,69.355287,-138.93931,NA,CA,(Old) Scandium City

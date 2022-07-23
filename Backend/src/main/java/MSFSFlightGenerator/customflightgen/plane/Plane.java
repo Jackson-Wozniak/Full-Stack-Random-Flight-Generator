@@ -36,31 +36,15 @@ public class Plane{
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getSpeedInMph() {
         return speedInMph;
-    }
-
-    public void setSpeedInMph(int speedInMph) {
-        this.speedInMph = speedInMph;
     }
 
     public int getRangeInKnots() {
         return rangeInKnots;
     }
 
-    public void setRangeInKnots(int rangeInKnots) {
-        this.rangeInKnots = rangeInKnots;
-    }
-
     public String getStandardEdition() {
         return standardEdition;
-    }
-
-    public void setStandardEdition(String standardEdition) {
-        this.standardEdition = standardEdition;
     }
 }
