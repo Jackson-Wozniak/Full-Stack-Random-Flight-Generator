@@ -13,7 +13,7 @@ public class Plane{
     private String name;
 
     @Column(name = "speed_in_knots")
-    private Integer speedInMph;
+    private Integer speedInKnots;
 
     @Column(name= "range_in_miles")
     private Integer rangeInKnots;
@@ -22,12 +22,12 @@ public class Plane{
     private String standardEdition;
 
     public Plane(){
-
+        //empty entity constructor
     }
 
-    public Plane(String name, int speedInMph, int rangeInKnots, String standardEdition) {
+    public Plane(String name, int speedInKnots, int rangeInKnots, String standardEdition) {
         this.name = name;
-        this.speedInMph = speedInMph;
+        this.speedInKnots = speedInKnots;
         this.rangeInKnots = rangeInKnots;
         this.standardEdition = standardEdition;
     }
@@ -36,8 +36,8 @@ public class Plane{
         return name;
     }
 
-    public int getSpeedInMph() {
-        return speedInMph;
+    public int getSpeedInKnots() {
+        return speedInKnots;
     }
 
     public int getRangeInKnots() {

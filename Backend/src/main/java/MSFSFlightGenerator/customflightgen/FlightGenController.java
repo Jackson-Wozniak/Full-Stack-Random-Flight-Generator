@@ -1,12 +1,8 @@
 package MSFSFlightGenerator.customflightgen;
 
-import MSFSFlightGenerator.customflightgen.airport.Airport;
 import MSFSFlightGenerator.customflightgen.airport.AirportService;
-import MSFSFlightGenerator.customflightgen.plane.Plane;
 import MSFSFlightGenerator.customflightgen.plane.PlaneService;
 import org.springframework.web.bind.annotation.*;
-
-import java.io.IOException;
 
 @RestController
 @RequestMapping(value = "/custom-flights")
@@ -21,11 +17,11 @@ public class FlightGenController {
     }
 
 
-    @PostMapping(value = "/generate")
-    public String getFlightRequest(@RequestBody String toParse){
-        System.out.println(toParse);
-        return "received";
-    }
+//    @PostMapping(value = "/generate")
+//    public String getFlightRequest(@RequestBody String toParse){
+//        System.out.println(toParse);
+//        return "received";
+//    }
 
     @GetMapping(value = "/generate")
     public Flight sendRandomFlight(){
@@ -33,12 +29,13 @@ public class FlightGenController {
         //if user chooses random plane, get random plane (or choose standard/pro editions)
         //other features include user choosing flight time and continent
         //for choosing flight time, calculate random flight, if it is over the limit, create new one
-        return new Flight();
-    }
-
-    @GetMapping(value = "test")
-    public Airport returnPlane(){
-        return airportService.findRandomAirport();
+        Flight flight = new Flight(
+                airportService.findRandomAirport(),
+                airportService.findRandomAirport(),
+                planeService.findRandomPlane());
+        flight.setFlightDistance();
+        flight.setFlightTime();
+        return flight;
     }
 
     //Changed from @modelattribute to @requestbody for Postman tests
