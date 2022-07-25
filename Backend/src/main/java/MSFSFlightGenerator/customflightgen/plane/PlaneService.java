@@ -46,6 +46,7 @@ public class PlaneService {
                     String[] array = a.split(",");
                     planeRepository.save(new Plane(
                             array[0],
+                            array[4],
                             Integer.parseInt(array[1]),
                             Integer.parseInt(array[2]),
                             array[3]));

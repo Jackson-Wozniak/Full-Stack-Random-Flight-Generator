@@ -4,6 +4,8 @@ import MSFSFlightGenerator.customflightgen.airport.AirportService;
 import MSFSFlightGenerator.customflightgen.plane.PlaneService;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
+
 @RestController
 @RequestMapping(value = "/custom-flights")
 public class FlightGenController {
@@ -33,9 +35,15 @@ public class FlightGenController {
                 airportService.findRandomAirport(),
                 airportService.findRandomAirport(),
                 planeService.findRandomPlane());
-        flight.setFlightDistance();
-        flight.setFlightTime();
         return flight;
+    }
+    
+    @GetMapping(value = "custom-generate")
+    public void sendRandomFlightWithParameters(@RequestBody String parameters){
+        //parse requestbody to see what parameters are chosen
+        //1.)Flight timer under 2 hours, 2-5 hours, no limit
+        //2.)Plane chosen
+        //3.)Continent Departure
     }
 
     //Changed from @modelattribute to @requestbody for Postman tests

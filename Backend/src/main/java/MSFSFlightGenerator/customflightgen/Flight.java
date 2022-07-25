@@ -19,6 +19,8 @@ public class Flight {
         this.airport1 = airport1;
         this.airport2 = airport2;
         this.plane = plane;
+        setFlightDistance();
+        setFlightDistance();
     }
 
     public Flight(){

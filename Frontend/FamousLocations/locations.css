@@ -1,0 +1,21 @@
+.card {
+    position : absolute;
+    text-align : center;
+    max-width : 600px;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+#landmark-container {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-image {
+    position : relative;
+    height : auto;
+    width : 95%;
+    border-radius: 5px;
+}

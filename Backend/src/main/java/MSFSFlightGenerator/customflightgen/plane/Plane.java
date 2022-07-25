@@ -12,6 +12,9 @@ public class Plane{
     @Id
     private String name;
 
+    @Column(name = "type")
+    private String type;
+
     @Column(name = "speed_in_knots")
     private Integer speedInKnots;
 
@@ -25,8 +28,9 @@ public class Plane{
         //empty entity constructor
     }
 
-    public Plane(String name, int speedInKnots, int rangeInKnots, String standardEdition) {
+    public Plane(String name, String type, int speedInKnots, int rangeInKnots, String standardEdition) {
         this.name = name;
+        this.type = type;
         this.speedInKnots = speedInKnots;
         this.rangeInKnots = rangeInKnots;
         this.standardEdition = standardEdition;
@@ -46,5 +50,13 @@ public class Plane{
 
     public String getStandardEdition() {
         return standardEdition;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }
