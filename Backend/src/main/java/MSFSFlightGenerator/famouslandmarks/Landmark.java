@@ -12,6 +12,9 @@ public class Landmark {
     @Id
     private String name;
 
+    @Column(name = "location")
+    private String location;
+
     @Column(name = "description")
     private String description;
 
@@ -25,8 +28,9 @@ public class Landmark {
 
     }
 
-    public Landmark(String name, String description, String airports, String imageLink) {
+    public Landmark(String name, String location, String description, String airports, String imageLink) {
         this.name = name;
+        this.location = location;
         this.description = description;
         this.airports = airports;
         this.imageLink = imageLink;
@@ -46,5 +50,9 @@ public class Landmark {
 
     public String getImageLink() {
         return imageLink;
+    }
+
+    public String getLocation() {
+        return location;
     }
 }

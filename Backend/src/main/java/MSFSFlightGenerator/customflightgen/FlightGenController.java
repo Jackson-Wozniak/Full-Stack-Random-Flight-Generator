@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 
 @RestController
-@RequestMapping(value = "/custom-flights")
+@CrossOrigin(value = "http://127.0.0.1:5500/")
+@RequestMapping(value = "/custom-flight")
 public class FlightGenController {
 
     private final PlaneService planeService;
@@ -31,11 +32,10 @@ public class FlightGenController {
         //if user chooses random plane, get random plane (or choose standard/pro editions)
         //other features include user choosing flight time and continent
         //for choosing flight time, calculate random flight, if it is over the limit, create new one
-        Flight flight = new Flight(
+        return new Flight(
                 airportService.findRandomAirport(),
                 airportService.findRandomAirport(),
                 planeService.findRandomPlane());
-        return flight;
     }
     
     @GetMapping(value = "custom-generate")

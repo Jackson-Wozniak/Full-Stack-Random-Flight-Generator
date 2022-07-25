@@ -20,7 +20,7 @@ public class Flight {
         this.airport2 = airport2;
         this.plane = plane;
         setFlightDistance();
-        setFlightDistance();
+        setFlightTime();
     }
 
     public Flight(){

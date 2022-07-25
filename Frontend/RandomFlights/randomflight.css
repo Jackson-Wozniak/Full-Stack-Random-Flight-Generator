@@ -1,0 +1,31 @@
+.content-container {
+    align-items : center; 
+    text-align : center;
+    justify-content : center;
+    display : flex;
+    flex-direction: column;
+}
+
+.random-flight-div {
+    margin : 30px;
+    min-height : 400px;
+    border : 1px solid;
+    width : 60%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display : flex;
+}
+
+#departure-div {
+    padding : 10px;
+}
+
+#flight-info-div {
+    padding : 10px;
+}
+
+#destination-div {
+    padding : 10px;
+
+}
