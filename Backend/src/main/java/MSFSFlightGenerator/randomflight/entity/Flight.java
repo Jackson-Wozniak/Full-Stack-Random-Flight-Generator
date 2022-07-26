@@ -1,11 +1,6 @@
-package MSFSFlightGenerator.customflightgen;
+package MSFSFlightGenerator.randomflight.entity;
 
-import MSFSFlightGenerator.customflightgen.airport.Airport;
-import MSFSFlightGenerator.customflightgen.airport.AirportService;
-import MSFSFlightGenerator.customflightgen.plane.Plane;
-import MSFSFlightGenerator.customflightgen.plane.PlaneService;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.springframework.beans.factory.annotation.Autowired;
+import MSFSFlightGenerator.randomflight.exception.CustomException;
 
 public class Flight {
 

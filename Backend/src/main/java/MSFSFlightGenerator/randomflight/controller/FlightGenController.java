@@ -1,10 +1,9 @@
-package MSFSFlightGenerator.customflightgen;
+package MSFSFlightGenerator.randomflight.controller;
 
-import MSFSFlightGenerator.customflightgen.airport.AirportService;
-import MSFSFlightGenerator.customflightgen.plane.PlaneService;
+import MSFSFlightGenerator.randomflight.service.AirportService;
+import MSFSFlightGenerator.randomflight.entity.Flight;
+import MSFSFlightGenerator.randomflight.service.PlaneService;
 import org.springframework.web.bind.annotation.*;
-
-import java.io.IOException;
 
 @RestController
 @CrossOrigin(value = "http://127.0.0.1:5500/")
@@ -18,13 +17,6 @@ public class FlightGenController {
         this.planeService = planeService;
         this.airportService = airportService;
     }
-
-
-//    @PostMapping(value = "/generate")
-//    public String getFlightRequest(@RequestBody String toParse){
-//        System.out.println(toParse);
-//        return "received";
-//    }
 
     @GetMapping(value = "/generate")
     public Flight sendRandomFlight(){

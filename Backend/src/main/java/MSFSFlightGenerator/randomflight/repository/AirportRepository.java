@@ -1,5 +1,6 @@
-package MSFSFlightGenerator.customflightgen.airport;
+package MSFSFlightGenerator.randomflight.repository;
 
+import MSFSFlightGenerator.randomflight.entity.Airport;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

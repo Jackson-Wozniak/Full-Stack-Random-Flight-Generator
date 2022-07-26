@@ -1,4 +1,4 @@
-package MSFSFlightGenerator.customflightgen;
+package MSFSFlightGenerator.randomflight.exception;
 
 public class CustomException extends RuntimeException {
 

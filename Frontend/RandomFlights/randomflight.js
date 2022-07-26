@@ -13,13 +13,13 @@ randomFlightButton.onclick = function randomFlight() {
 
 function addDataToDepartureDiv(airport1){
     const airportData = `
-    <p>${airport1.airportName}</p>
-    <p>${airport1.icaoCode}</p>
-    <p>${airport1.country}</p>
-    <p>${airport1.continent}</p>
-    <p>${airport1.latitude}</p>
-    <p>${airport1.longitude}</p>
-    <p>${airport1.size}</p>
+    <h2><i class="fa fa-map-marker"></i>Departure</h2>
+    <hr/>
+    <p>Airport Name: <span>${airport1.airportName}</span></p>
+    <p>ICAO Code: <span>${airport1.icaoCode}</span></p>
+    <p>Country: <span>${airport1.country}</span></p>
+    <p>Continent: <span>${airport1.continent}</span></p>
+    <p>Coordinates: <span>${airport1.latitude} , ${airport1.longitude}</span></p>
     `;
 
     document.getElementById('departure-div').innerHTML = airportData; 
@@ -27,13 +27,13 @@ function addDataToDepartureDiv(airport1){
 
 function addDataToFlightInfoDiv(flightInfo, plane){
     const airportData = `
-    <p>${plane.name}</p>
-    <p>${plane.rangeInKnots}</p>
-    <p>${plane.speedInKnots}</p>
-    <p>${plane.standardEdition}</p>
-    <p>${plane.type}</p>
-    <p>${flightInfo.flightHours}</p>
-    <p>${flightInfo.flightDistance}</p>
+    <h2><i class="fa fa-map-o"></i>Flight Info and Plane</h2>
+    <hr/>
+    <p>Hours of Flight: <span>${flightInfo.flightHours}</span></p>
+    <p>Flight Distance: <span>${flightInfo.flightDistance}</span></p>
+    <p>Plane: <span>${plane.name}</span></p>
+    <p>Cruising Speed: <span>${plane.speedInKnots}</span></p>
+    <p>Type of Plane: <span>${plane.type}</span></p>  
     `;
 
     document.getElementById('flight-info-div').innerHTML = airportData; 
@@ -41,13 +41,13 @@ function addDataToFlightInfoDiv(flightInfo, plane){
 
 function addDataToDestinationDiv(airport2){
     const airportData = `
-    <p>${airport2.airportName}</p>
-    <p>${airport2.icaoCode}</p>
-    <p>${airport2.country}</p>
-    <p>${airport2.continent}</p>
-    <p>${airport2.latitude}</p>
-    <p>${airport2.longitude}</p>
-    <p>${airport2.size}</p>
+    <h2><i class="fa fa-map-marker"></i>Destination</h2>
+    <hr/>
+    <p>Airport Name: <span>${airport2.airportName}</span></p>
+    <p>ICAO Code: <span>${airport2.icaoCode}</span></p>
+    <p>Country: <span>${airport2.country}</span></p>
+    <p>Continent: <span>${airport2.continent}</span></p>
+    <p>Coordinates: <span>${airport2.latitude} , ${airport2.longitude}</span></p>
     `;
 
     document.getElementById('destination-div').innerHTML = airportData; 
