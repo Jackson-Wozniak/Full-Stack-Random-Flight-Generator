@@ -17,7 +17,7 @@ public class SaveLandmarkFromCsv {
         this.landmarkService = landmarkService;
     }
 
-    public void saveToDb() throws IOException {
+    public void saveLandmarkToDb() throws IOException {
         File file = new File("Text-files/landmarks.csv");
 
         Files.lines(file.toPath()).forEach(a -> {
