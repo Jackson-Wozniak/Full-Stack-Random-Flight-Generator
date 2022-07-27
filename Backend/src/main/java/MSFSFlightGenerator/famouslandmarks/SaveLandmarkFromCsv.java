@@ -1,0 +1,33 @@
+package MSFSFlightGenerator.famouslandmarks;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+
+@Service
+public class SaveLandmarkFromCsv {
+
+    private final LandmarkService landmarkService;
+
+    @Autowired
+    public SaveLandmarkFromCsv(LandmarkService landmarkService){
+        this.landmarkService = landmarkService;
+    }
+
+    public void saveToDb() throws IOException {
+        File file = new File("Text-files/landmarks.csv");
+
+        Files.lines(file.toPath()).forEach(a -> {
+            String[] array = a.split("\\)\\(");
+            landmarkService.saveLandmark(new Landmark(
+                    array[0],
+                    array[1],
+                    array[2],
+                    array[3],
+                    array[4]));
+        });
+    }
+}

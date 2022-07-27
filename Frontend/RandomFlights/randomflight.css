@@ -13,13 +13,14 @@
     justify-content : center;
     display : flex;
     flex-direction: column;
+    min-height : 80vh;
 }
 
 .random-flight-div {
     margin : 30px;
     min-height : 400px;
     border-top : 1px solid var(--green);
-    width : 80%;
+    width : 90%;
     align-items: center;
     text-align: center;
     justify-content: center;

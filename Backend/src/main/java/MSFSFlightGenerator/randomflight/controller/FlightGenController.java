@@ -1,5 +1,6 @@
 package MSFSFlightGenerator.randomflight.controller;
 
+import MSFSFlightGenerator.randomflight.entity.Plane;
 import MSFSFlightGenerator.randomflight.service.AirportService;
 import MSFSFlightGenerator.randomflight.entity.Flight;
 import MSFSFlightGenerator.randomflight.service.PlaneService;
@@ -31,13 +32,14 @@ public class FlightGenController {
     }
     
     @GetMapping(value = "custom-generate")
-    public void sendRandomFlightWithParameters(@RequestBody String parameters){
-        //parse requestbody to see what parameters are chosen
-        //1.)Flight timer under 2 hours, 2-5 hours, no limit
-        //2.)Plane chosen
-        //3.)Continent Departure
+    public Plane sendRandomFlightWithParameters(){
+        //parse @RequestBody to see what parameters are chosen
+        //1.Flight timer under 2 hours, 2-5 hours, no limit
+        //2.Plane chosen
+        //3.Continent Departure
+        return planeService.findRandomPlaneByType("airliner");
     }
 
-    //Changed from @modelattribute to @requestbody for Postman tests
+    //Changed from @ModelAttribute to @RequestBody for Postman tests
 
 }

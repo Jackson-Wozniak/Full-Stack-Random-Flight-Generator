@@ -29,10 +29,10 @@ function addDataToFlightInfoDiv(flightInfo, plane){
     const airportData = `
     <h2><i class="fa fa-map-o"></i>Flight Info and Plane</h2>
     <hr/>
-    <p>Hours of Flight: <span>${flightInfo.flightHours}</span></p>
-    <p>Flight Distance: <span>${flightInfo.flightDistance}</span></p>
+    <p>Hours of Flight: <span>${flightInfo.flightHours} hours</span></p>
+    <p>Flight Distance: <span>${flightInfo.flightDistance} miles</span></p>
     <p>Plane: <span>${plane.name}</span></p>
-    <p>Cruising Speed: <span>${plane.speedInKnots}</span></p>
+    <p>Cruising Speed: <span>${plane.speedInKnots} knots</span></p>
     <p>Type of Plane: <span>${plane.type}</span></p>  
     `;
 

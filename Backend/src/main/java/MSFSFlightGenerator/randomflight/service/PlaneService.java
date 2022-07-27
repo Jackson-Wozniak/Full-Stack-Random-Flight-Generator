@@ -35,6 +35,10 @@ public class PlaneService {
         return planeRepository.getRandomPlane();
     }
 
+    public Plane findRandomPlaneByType(String type){
+        return planeRepository.getRandomPlaneByType(type);
+    }
+
 
 
 
