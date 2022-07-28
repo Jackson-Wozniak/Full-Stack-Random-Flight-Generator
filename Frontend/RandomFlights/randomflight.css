@@ -16,6 +16,29 @@
     min-height : 80vh;
 }
 
+.input-parameters {
+    align-items: center;
+    text-align: center;
+    min-width : 50%;
+    border : 1px solid grey;
+    border-radius: 5px;
+}
+
+.input-info {
+    margin : 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.input-info h5 {
+    margin-right : 10px;
+}
+
+input[type=radio] {
+    width: 100%;
+    height : 1.25rem;
+}
+
 .random-flight-div {
     margin : 30px;
     min-height : 400px;

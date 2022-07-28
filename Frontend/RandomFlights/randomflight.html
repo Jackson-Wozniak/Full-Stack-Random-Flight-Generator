@@ -27,8 +27,48 @@
     </nav>
 
     <div class="content-container">
-        <div style="padding : 10px; margin : 20px;">
-            <input type="submit" id="random-flight-button" value="Get Random Flight">
+        <div style="padding : 10px; margin : 20px;" class="input-parameters">
+            <div class="input-info">
+                <h5 style="display : inline;">Max Flight Hours</h5>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="hours" id="radio" value="any" checked> Any
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="hours" value="10"> 10 Hours
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="hours" value="5"> 5 Hours
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="hours" value="2"> 2 Hours
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="hours" value="1"> 1 Hour
+                </label>
+            </div>
+            <hr/>
+            <div class="input-info">
+                <h5 style="display : inline;">Plane Type</h5>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="type" id="radio" value="any" checked> Any
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="type" value="propeller"> Propeller
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="type" value="airliner"> Airliner
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="type" value="jet"> Jet
+                </label>
+                <label class="checkbox-inline check">
+                    <input type="radio" name="type" value="turboprop"> Turboprop
+                </label>
+            </div>
+            <hr/>
+            <div class="input-info">
+                <input type="submit" id="random-flight-button" value="Get Random Flight">
+            </div>
         </div>
         <div class="random-flight-div">
             <div class="card">

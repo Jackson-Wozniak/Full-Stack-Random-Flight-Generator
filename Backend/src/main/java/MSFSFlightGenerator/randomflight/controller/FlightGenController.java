@@ -1,10 +1,13 @@
 package MSFSFlightGenerator.randomflight.controller;
 
+import MSFSFlightGenerator.randomflight.entity.Airport;
 import MSFSFlightGenerator.randomflight.entity.Plane;
 import MSFSFlightGenerator.randomflight.service.AirportService;
 import MSFSFlightGenerator.randomflight.entity.Flight;
 import MSFSFlightGenerator.randomflight.service.PlaneService;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @CrossOrigin(value = "http://127.0.0.1:5500/")
@@ -30,13 +33,19 @@ public class FlightGenController {
                 airportService.findRandomAirport(),
                 planeService.findRandomPlane());
     }
+
+    @GetMapping(value = "test")
+    public Flight getFlightWithTime(){
+        Plane plane = planeService.findRandomPlane();
+        List<Airport> airports = airportService.getAirportsWithMaxHours(2.0, plane.getSpeedInKnots());
+        return new Flight(airports.get(0), airports.get(1), plane);
+    }
     
     @GetMapping(value = "custom-generate")
     public Plane sendRandomFlightWithParameters(){
         //parse @RequestBody to see what parameters are chosen
         //1.Flight timer under 2 hours, 2-5 hours, no limit
-        //2.Plane chosen
-        //3.Continent Departure
+        //2.Plane type
         return planeService.findRandomPlaneByType("airliner");
     }
 
