@@ -6,12 +6,13 @@
     <title>Flight Generator</title>
     <link rel="stylesheet" href="../RandomFlights/randomflight.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     
     <script src="../RandomFlights/randomflight.js" defer></script>
 </head>
 <body class="body">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-image : none; background-color : rgba(31, 41, 55);">
         <a class="navbar-brand" href="#">Icon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -70,10 +71,11 @@
                 <input type="submit" id="random-flight-button" value="Get Random Flight">
             </div>
         </div>
+
         <div class="random-flight-div">
             <div class="card">
                 <div id="departure-div">
-                    <h2><i class="fa fa-map-marker"></i>Departure</h2>
+                    <h2><i class="fa-solid fa-plane-departure"></i>Departure</h2>
                     <hr/>
                     <p>Airport Name:</p>
                     <p>ICAO Code:</p>
@@ -84,7 +86,7 @@
             </div>
             <div class="card"">
                 <div id="flight-info-div">
-                    <h2><i class="fa fa-map-o"></i>Flight Info and Plane</h2>
+                    <h2><i class="fa-solid fa-earth-americas"></i>Flight Info and Plane</h2>
                     <hr/>
                     <p>Hours of Flight:</p>
                     <p>Flight Distance:</p>
@@ -95,7 +97,7 @@
             </div>
             <div class="card"">
                 <div id="destination-div">
-                    <h2><i class="fa fa-map-marker"></i>Destination</h2>
+                    <h2><i class="fa-solid fa-plane-arrival"></i>Destination</h2>
                     <hr/>
                     <p>Airport Name:</p>
                     <p>ICAO Code:</p>

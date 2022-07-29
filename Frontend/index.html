@@ -4,13 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Generator</title>
-    <link rel="stylesheet" href="HomePage/homepage.css">
+    <link rel="stylesheet" href="../Homepage/homepage.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body class="body">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Icon</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,83 +24,79 @@
     </nav>
 
     <!--Main Body of Website-->
-    <div class="container">
+    <div class="content-container">
+        <div class="header-image-div">
+            <!--https://unsplash.com/photos/a80xLtm_tMQ-->
+            <img src="../Homepage/images/download.jpg" class="main-image" style="border-radius : 5px;">
 
-        <div class="header-card">
-            <div class="header-card-content">
-                <p class="card-heading">Getting Started</p>
-            <hr size="3" style="width : 90%">
-                <p class="card-description">
-                    Take a look at all the options that we offer, helping you explore the world of Microsoft Flight Simulator 2020!
+            <div class="heading-text">
+                <h1 class="main-image-header">Explore Flight Simulator 2020</h1>
+                <hr/>
+                <p class="main-image-paragraph">
+                    With the entire world open to explore, create and view 
+                    custom flights connecting airports across the globe
                 </p>
             </div>
-        </div>
 
-        <div class="card">
-            <div class="image-div">
-                <img src="../HomePage/images/airport2.jpg" class="card-image"></img>
-            </div>
-            <!--https://unsplash.com/photos/RSYBi_1fhfM-->
-            <div class="card-title-div">
-                <h3 class="card-title">View Famous Routes</h3>
-            </div>
-            <div class="card-content">
-                <p class="card-info">
-                    Take a look at some of the most flown routes in the world, connecting many of the busiest cities in the world.
-                </p>
-            </div>
-            <div class="submit-div">
-                <a href="../PopularFlights/popularroutes.html"><button class="submit-button">View</button></a>
-            </div>
-        </div>
+            <div class="featured-card">
+                <h2>Custom Flight</h2>
+                <br>
+                <a href="../RandomFlights/randomflight.html" class="hover-link">
+                <div class="card-type">
+                    <img src="../Homepage/images/runway.jpg" class="card-image"></img>
+                    <!--https://media.istockphoto.com/photos/used-concrete-asphalt-airport-empty-runway-with-many-braking-marks-picture-id1256696490?b=1&k=20&m=1256696490&s=170667a&w=0&h=yfyYjNdLiP7t2Uny2tjpQG8u8xKZHTFA-18r-NhTXiY=-->
+                    <h3 class="card-title">Create Random Flight</h3>
+                    <p class="card-info">Generate a random flight from a list of 9,000 airports 
+                        all over the world. Choose a plane to fly, or make it totally random!
+                    </p>
+                </div>
+                </a>
 
-        <div class="card">
-            <div class="image-div">
-                <img src="../HomePage/images/airport.jpg" class="card-image"></img>
             </div>
-            <!--https://unsplash.com/photos/UYiesSO4FiM-->
-            <div class="card-title-div">
-                <h3 class="card-title">Create Random Flight</h3>
-            </div>
-            <div class="card-content">
-                <p class="card-info">Generate a random flight from a list of 9,000 airports 
-                    all over the world. Choose a plane to fly, or make it totally random!</p>
-            </div>
-            <div class="submit-div">
-                <a href="../RandomFlights/randomflight.html"><button class="submit-button">View</button></a>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="image-div">
-                <img src="../HomePage/images/mountains.jpg" class="card-image"></img>
-            </div>
-            <!--https://www.pexels.com/photo/green-fields-near-brown-mountain-210243/-->
-            <div class="card-title-div">
-                <h3 class="card-title">Explore Famous Locations</h3>
-            </div>
-            <div class="card-content">
-                <p class="card-info">
-                    Want to explore the best views and experiences the world has to offer? Start right here!
-                </p>
-            </div>
-            <div class="submit-div">
-                <a href="../FamousLocations/locations.html"><button class="submit-button">View</button></a>
-            </div>
-        </div>
+            <div class="second-half">
+                <div class="explore-features-card">Explore All of Our Features</div>
+                <hr/>
+                <div class="card-holder">
 
-        <div class="header-card" style="margin-top : 40px;">
-            <div class="header-card-content">
-                <p class="card-heading">How do we form our data?</p>
-            <hr size="3" style="width : 90%">
-                <p class="card-description">
-                    To generate random flights, two random airports are chosen from over 9,000 airports across the world.
-                </p>
+                    <a href="../PopularFlights/popularroutes.html">
+                        <div class="card-list">
+                            <img src="../Homepage/images/airport2.jpg" class="card-image"></img>
+                            <!--https://media.istockphoto.com/photos/used-concrete-asphalt-airport-empty-runway-with-many-braking-marks-picture-id1256696490?b=1&k=20&m=1256696490&s=170667a&w=0&h=yfyYjNdLiP7t2Uny2tjpQG8u8xKZHTFA-18r-NhTXiY=-->
+                            <h3>View Famous Routes</h3>
+                            <p>
+                                Take a look at some of the most flown routes in the world, connecting many of the busiest cities in the world.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="../RandomFlights/randomflight.html">
+                        <div class="card-list">
+                            <img src="../Homepage/images/airport.jpg" class="card-image"></img>
+                            <!--https://media.istockphoto.com/photos/used-concrete-asphalt-airport-empty-runway-with-many-braking-marks-picture-id1256696490?b=1&k=20&m=1256696490&s=170667a&w=0&h=yfyYjNdLiP7t2Uny2tjpQG8u8xKZHTFA-18r-NhTXiY=-->
+                            <h3>Create Random Flight</h3>
+                            <p>Generate a random flight from a list of 9,000 airports 
+                                all over the world. Choose a plane to fly, or make it totally random!
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="../FamousLocations/locations.html">
+                        <div class="card-list">
+                            <img src="../Homepage/images/mountains.jpg" class="card-image"></img>
+                            <!--https://media.istockphoto.com/photos/used-concrete-asphalt-airport-empty-runway-with-many-braking-marks-picture-id1256696490?b=1&k=20&m=1256696490&s=170667a&w=0&h=yfyYjNdLiP7t2Uny2tjpQG8u8xKZHTFA-18r-NhTXiY=-->
+                            <h3>Explore Famous Landmarks</h3>
+                            <p>
+                                Want to explore the best views and experiences the world has to offer? Start right here!
+                            </p>
+                        </div>
+                    </a>
+                    
+                </div>
             </div>
         </div>
     </div>
 
-    
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white" style="background-color: #343a40">

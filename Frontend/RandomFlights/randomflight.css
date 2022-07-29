@@ -52,11 +52,15 @@ input[type=radio] {
     min-height : 350px;
 }
 
-.fa-map-o {
+.fa-plane-departure {
     color : #bb0a1e;
 }
 
-.fa-map-marker {
+.fa-earth-americas {
+    color : darkblue;
+}
+
+.fa-plane-arrival {
     color : #bb0a1e
 }
 

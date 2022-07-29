@@ -13,7 +13,7 @@ randomFlightButton.onclick = function randomFlight() {
 
 function addDataToDepartureDiv(airport1){
     const airportData = `
-    <h2><i class="fa fa-map-marker"></i>Departure</h2>
+    <h2><i class="fa-solid fa-plane-arrival"></i>Departure</h2>
     <hr/>
     <p>Airport Name: <span>${airport1.airportName}</span></p>
     <p>ICAO Code: <span>${airport1.icaoCode}</span></p>
