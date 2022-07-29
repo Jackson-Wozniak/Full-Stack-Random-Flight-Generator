@@ -29,13 +29,17 @@ public class AirportService {
     if plane speed is < 150 + max hours < 2, flight is always domestic
     if plane speed is < 150 + max hours < 5, flight stays within continent
      */
-    public List<Airport> getAirportsWithMaxHours(double maxHours, int planeSpeed){
+    public List<Airport> getAirportsWithMaxHours(String maxFlightHours, int planeSpeed){
+        if(maxFlightHours.equals("any")){
+            return List.of(airportRepository.getRandomAirport(), airportRepository.getRandomAirport());
+        }
         Airport airport1;
         Airport airport2;
         /*
         domesticFlight used to check if plane and duration is low enough that
         both airports are to be within a single country
         */
+        double maxHours = Double.parseDouble(maxFlightHours);
         boolean domesticFlight = planeSpeed <= 150 && maxHours <= 2.0;
         while(true){
             airport1 = airportRepository.getRandomAirport();

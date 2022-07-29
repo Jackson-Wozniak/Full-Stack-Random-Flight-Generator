@@ -16,10 +16,11 @@ public class PlaneService {
         this.planeRepository = planeRepository;
     }
 
-    public Plane findPlaneById(String name){
-        return planeRepository.findById(name)
-                .orElseThrow(() -> new CustomException("cannot find plane"));
-    }
+    //this method will be used when i create combo box on frontend including all plane names
+//    public Plane findPlaneById(String name){
+//        return planeRepository.findById(name)
+//                .orElseThrow(() -> new CustomException("cannot find plane"));
+//    }
 
     public List<Plane> findAllPlanes(){
         return planeRepository.findAll();
@@ -34,10 +35,9 @@ public class PlaneService {
     }
 
     public Plane findRandomPlaneByType(String type){
+        if(type.equals("any")){
+            return planeRepository.getRandomPlane();
+        }
         return planeRepository.getRandomPlaneByType(type);
     }
-
-
-
-
 }
