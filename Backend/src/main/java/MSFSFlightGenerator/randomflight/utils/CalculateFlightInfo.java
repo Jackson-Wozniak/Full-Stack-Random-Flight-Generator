@@ -1,7 +1,7 @@
 package MSFSFlightGenerator.randomflight.utils;
 
-import MSFSFlightGenerator.randomflight.entity.Airport;
-import MSFSFlightGenerator.randomflight.exception.CustomException;
+import MSFSFlightGenerator.randomflight.airport.Airport;
+import MSFSFlightGenerator.randomflight.CustomException;
 
 public class CalculateFlightInfo {
 
@@ -28,6 +28,8 @@ public class CalculateFlightInfo {
 
     //calculate flight time using distance and speed
     public static double calculateFlightHours(int planeSpeedInKnots, double flightDistanceInMiles){
-        return Math.round((flightDistanceInMiles/planeSpeedInKnots) * 100.00) / 100.00;
+        //knots to miles per hour
+        double newPlaneSpeedInKnots = planeSpeedInKnots * 1.15077945;
+        return Math.round((flightDistanceInMiles/newPlaneSpeedInKnots) * 100.00) / 100.00;
     }
 }

@@ -12,6 +12,11 @@
     background-color: var(--darkest);
 }
 
+body {
+    padding : 0;
+    margin : 0;
+}
+
 .body {
     background-color: var(--darker);
 }
@@ -26,27 +31,28 @@
 .header-image-div {
     position: relative;
     background-color: none;
-    margin : 20px 20px 0px 30px;
-    width : 95%;
+    width : 100%;
+    height : 100%;
 }
 
 .main-image {
     margin : 0;
     width : 100%;
-    height : 500px;
+    height : 90%;
     object-fit: cover;
-    border : 1px solid var(--light);
 }
 
 .heading-text {
     position : absolute;
-    width : 55%;
-    top : 10;
-    left : 10;
+    width : 80%;
+    top : 40%;
+    left : 50%;
+    transform: translate(-50%, -50%);
 }
 
 .heading-text h1 {
     color : var(--light);
+    text-shadow: 4px 4px var(--darkest);
     font-family: 'Century Gothic',sans-serif;
 }
 
@@ -55,15 +61,18 @@
 }
 
 .heading-text p {
+    text-shadow: 2px 2px var(--darkest);
     color : var(--light);
     font-family: 'Century Gothic', sans-serif;
-    font-size : 1.1rem;
+    font-size : 2rem;
 }
 
+/*
 .featured-card {
     position: absolute;
-    top : 40;
-    right : 20;
+    top : 70%;
+    left : 50%;
+    transform: translate(-50%, -50%);
 }
 
 .featured-card h2 {
@@ -74,24 +83,26 @@
     right : 55;
     margin-bottom : 10px;
 }
+*/
 
 
 hr {
     background-color: var(--green);
+    width : 80%;
 }
 
-.card-type {
+/* .card-type {
     flex : 0 1 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin : 30px 10px 10px 10px;
+    margin :30px 10px 10px 10px;
     width: 300px;
     height : 380px;
     border-radius: 5px;
     border: 1px solid var(--light);
     background-color : var(--darker);
-}
+} */
 
 .card-title {
     font-size: 30;
@@ -100,7 +111,7 @@ hr {
 }
 
 .card-info {
-    padding : 0px 30px 0px 30px;
+    padding : 10px 30px 0px 30px;
     font-size: 16;
     font-family: 'Garamond', sans-serif;
     color : var(--light);
@@ -115,7 +126,7 @@ hr {
 
 
 .explore-features-card {
-    margin-top : 30px;
+    width : 95%;
     font-family: 'Imprint MT Shadow';
     font-size: 60;
     text-align: center;
@@ -130,6 +141,7 @@ hr {
     align-items: center;
     text-align: center;
     width : 100%;
+    min-height : 500px;
 }
 
 .card-list {
@@ -137,7 +149,7 @@ hr {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin : 30px 10px 10px 10px;
+    margin : 10px 10px 10px 10px;
     width: 350px;
     height : 410px;
     border-radius: 5px;
@@ -157,7 +169,7 @@ hr {
     font-family: 'Garamond', sans-serif;
 }
 
-
 footer {
-    margin-top : 30px;
+    position:relative;
 }
+

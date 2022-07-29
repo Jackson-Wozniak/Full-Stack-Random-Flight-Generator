@@ -1,8 +1,6 @@
-package MSFSFlightGenerator.randomflight.service;
+package MSFSFlightGenerator.randomflight.plane;
 
-import MSFSFlightGenerator.randomflight.entity.Plane;
-import MSFSFlightGenerator.randomflight.exception.CustomException;
-import MSFSFlightGenerator.randomflight.repository.PlaneRepository;
+import MSFSFlightGenerator.randomflight.CustomException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

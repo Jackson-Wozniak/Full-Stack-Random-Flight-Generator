@@ -1,4 +1,4 @@
-package MSFSFlightGenerator.randomflight.entity;
+package MSFSFlightGenerator.randomflight.plane;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

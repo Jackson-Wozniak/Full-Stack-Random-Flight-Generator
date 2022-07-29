@@ -1,10 +1,9 @@
-package MSFSFlightGenerator.randomflight.controller;
+package MSFSFlightGenerator.randomflight;
 
-import MSFSFlightGenerator.randomflight.entity.Airport;
-import MSFSFlightGenerator.randomflight.entity.Plane;
-import MSFSFlightGenerator.randomflight.service.AirportService;
-import MSFSFlightGenerator.randomflight.entity.Flight;
-import MSFSFlightGenerator.randomflight.service.PlaneService;
+import MSFSFlightGenerator.randomflight.airport.Airport;
+import MSFSFlightGenerator.randomflight.plane.Plane;
+import MSFSFlightGenerator.randomflight.airport.AirportService;
+import MSFSFlightGenerator.randomflight.plane.PlaneService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,8 +1,7 @@
 package MSFSFlightGenerator.randomflight;
 
-import MSFSFlightGenerator.randomflight.service.AirportService;
-import MSFSFlightGenerator.randomflight.entity.Flight;
-import MSFSFlightGenerator.randomflight.service.PlaneService;
+import MSFSFlightGenerator.randomflight.airport.AirportService;
+import MSFSFlightGenerator.randomflight.plane.PlaneService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

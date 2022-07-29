@@ -1,5 +1,7 @@
-package MSFSFlightGenerator.randomflight.entity;
+package MSFSFlightGenerator.randomflight;
 
+import MSFSFlightGenerator.randomflight.airport.Airport;
+import MSFSFlightGenerator.randomflight.plane.Plane;
 import MSFSFlightGenerator.randomflight.utils.CalculateFlightInfo;
 
 public class Flight {
