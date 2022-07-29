@@ -31,6 +31,6 @@ All plane data is taken from Microsoft Flight Simulator.
 ---
 # Screenshots
 
-![Screenshot (22)](https://user-images.githubusercontent.com/105665813/181135357-8ea878f5-2590-4d5e-98a3-146648eb9e3b.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/105665813/181674763-1f5eb8b9-fe58-470a-a942-a5e84e21cd76.png)
 
-![Screenshot (23)](https://user-images.githubusercontent.com/105665813/181135475-ee9c3139-c7b1-4bf0-85df-80476fea8460.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/105665813/181674782-b024fc10-d567-4edc-83b0-697017cc361e.png)
