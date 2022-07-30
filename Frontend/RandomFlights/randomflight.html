@@ -6,14 +6,12 @@
     <title>Flight Generator</title>
     <link rel="stylesheet" href="../RandomFlights/randomflight.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    
     <script src="../RandomFlights/randomflight.js" defer></script>
+
 </head>
 <body class="body">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-image : none; background-color : rgba(31, 41, 55);">
-        <a class="navbar-brand" href="#">Icon</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,8 +29,9 @@
         <div style="padding : 10px; margin : 20px;" class="input-parameters">
             <div class="input-info">
                 <h5 style="display : inline;">Max Flight Hours</h5>
+
                 <label class="checkbox-inline check">
-                    <input type="radio" name="hours" id="radio" value="any" checked> Any
+                    <input type="radio" name="hours" id="flight-duration" value="any" checked> Any
                 </label>
                 <label class="checkbox-inline check">
                     <input type="radio" name="hours" value="10"> 10 Hours
@@ -51,7 +50,7 @@
             <div class="input-info">
                 <h5 style="display : inline;">Plane Type</h5>
                 <label class="checkbox-inline check">
-                    <input type="radio" name="type" id="radio" value="any" checked> Any
+                    <input type="radio" name="type" id="plane-type" value="any" checked> Any
                 </label>
                 <label class="checkbox-inline check">
                     <input type="radio" name="type" value="propeller"> Propeller
@@ -111,18 +110,19 @@
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-white" style="background-color: #343a40">
+    <footer class="text-center text-lg-start text-white"  style="background-color: #111827">
             <div class="footer-div">
                 <div class="text-center p-2">
                     <a class="btn btn-outline-light btn-floating m-2" href="#!"role="button"
-                        target="_blank"> <i class="fa fa-linkedin"></i></a>
+                        target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+
                     <a class="btn btn-outline-light btn-floating m-2" target="_blank"
                         href="https://ourairports.com/data/"role="button">Airport Data Credit</a>
+
                     <a class="btn btn-outline-light btn-floating m-2" href="https://github.com/Jackson-Wozniak" 
-                        target="_blank" role="button"><i class="fa fa-github"></i></a>
+                        target="_blank" role="button"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
     </footer>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>

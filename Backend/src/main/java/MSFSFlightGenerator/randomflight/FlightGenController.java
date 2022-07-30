@@ -36,7 +36,7 @@ public class FlightGenController {
     /*
     returns flight parameters including the maximum flight time and plane type
      */
-    @GetMapping(value = "custom-flight")
+    @PostMapping(value = "custom-flight")
     public Flight sendRandomFlightWithParameters(@RequestBody FlightParameters flightParameters){
         Plane plane = planeService.findRandomPlaneByType(flightParameters.getPlaneType());
         List<Airport> airports = airportService.getAirportsWithMaxHours(

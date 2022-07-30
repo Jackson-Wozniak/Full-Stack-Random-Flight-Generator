@@ -1,24 +1,20 @@
-const data = [{
-    "departureName":"Manchester",
-    "departureICAO":"KMHT",
-    "destinationName":"Boston",
-    "destinationICAO":"KBOS"
-},
-{
-    "departureName":"John F Kennedy",
-    "departureICAO":"JFK",
-    "destinationName":"Washington Dulles",
-    "destinationICAO":"WAS"
-}]
+fetch('http://localhost:8080/routes/find-All')
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        showRoutes(data);
+    })
 
-data.forEach(element => {
-    const html = `
-    <div class="main-card">
-        <p class="departure">${element.departureName} <br> ${element.departureICAO}</p>
-        <div class="seperator"><hr/></div>
-        <p class="destination">${element.destinationName} <br> ${element.destinationICAO}<p>
-    </div>
-    `;
+function showRoutes(data){
+    data.forEach(element => {
+        const html = `
+        <div class="main-card">
+            <p class="departure">${element.departureAirport} <br> ${element.departureIcao}</p>
+            <div class="seperator"><hr/></div>
+            <p class="destination">${element.destinationAirport} <br> ${element.destinationIcao}<p>
+        </div>
+        `;
 
-    document.getElementById("card-container").innerHTML += html;
-});
+        document.getElementById("card-container").innerHTML += html;
+    });
+}

@@ -32,7 +32,7 @@ public class CalculateFlightInfo {
     //calculate flight time using distance and speed
     public static double calculateFlightHours(int planeSpeedInKnots, double flightDistanceInMiles){
         //knots to miles per hour
-        double newPlaneSpeedInKnots = planeSpeedInKnots * 1.15077945;
-        return Math.round((flightDistanceInMiles/newPlaneSpeedInKnots) * 100.00) / 100.00;
+        double newPlaneSpeedInMph = planeSpeedInKnots * 1.15077945;
+        return Math.round((flightDistanceInMiles/newPlaneSpeedInMph) * 100.00) / 100.00;
     }
 }

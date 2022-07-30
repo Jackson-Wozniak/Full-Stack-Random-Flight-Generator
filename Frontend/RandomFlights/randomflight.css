@@ -7,6 +7,11 @@
     --green: #3bd170;
 }
 
+.navbar-expand-lg {
+    background-image: none;
+    background-color: var(--darkest);
+}
+
 .content-container {
     align-items : center; 
     text-align : center;
