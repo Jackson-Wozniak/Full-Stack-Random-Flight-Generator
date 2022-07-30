@@ -1,7 +1,5 @@
 package MSFSFlightGenerator.randomflight.airport;
 
-import MSFSFlightGenerator.randomflight.airport.Airport;
-import MSFSFlightGenerator.randomflight.airport.AirportRepository;
 import MSFSFlightGenerator.randomflight.utils.CalculateFlightInfo;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +24,7 @@ public class AirportService {
 
 
     /*
+    maxFlightHours is String so that the method can check if flight time is "any"
     if plane speed is < 150 + max hours < 2, flight is always domestic
     if plane speed is < 150 + max hours < 5, flight stays within continent
      */

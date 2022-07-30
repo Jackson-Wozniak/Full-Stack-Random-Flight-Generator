@@ -22,6 +22,9 @@ public class FlightGenController {
         this.airportService = airportService;
     }
 
+    /*
+    returns flight with no parameters, totally random
+     */
     @GetMapping(value = "/new-flight")
     public Flight sendRandomFlight(){
         return new Flight(
@@ -29,7 +32,10 @@ public class FlightGenController {
                 airportService.findRandomAirport(),
                 planeService.findRandomPlane());
     }
-    
+
+    /*
+    returns flight parameters including the maximum flight time and plane type
+     */
     @GetMapping(value = "custom-flight")
     public Flight sendRandomFlightWithParameters(@RequestBody FlightParameters flightParameters){
         Plane plane = planeService.findRandomPlaneByType(flightParameters.getPlaneType());

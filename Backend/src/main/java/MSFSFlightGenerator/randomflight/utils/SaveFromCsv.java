@@ -10,6 +10,12 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
+/*
+This class saves plane and airport data from csv format to a Database
+Stays unused unless DB needs to actively be changed
+Plane Structure : Name, Speed, Range, Standard Edition or not, Type
+Airport Structure : ICAO Code, Airport Size, Name, Latitude, Longitude, Continent, Country, Municipality
+ */
 public class SaveFromCsv {
 
     private final AirportService airportService;
@@ -36,8 +42,6 @@ public class SaveFromCsv {
                 });
     }
 
-    //method to save from csv file to database directly
-    //icao,type,name,latitude_deg,longitude_deg,continent,iso_country,municipality
     public void saveAirportsFromCsv() throws IOException {
         File file = new File("Text-files/airports.csv");
         Files.lines(file.toPath()).forEach(a -> {

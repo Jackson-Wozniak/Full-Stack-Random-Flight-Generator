@@ -12,6 +12,12 @@
     background-color: var(--darkest);
 }
 
+.navbar-right {
+    position: absolute;
+    right : 10;
+    top : 0;
+}
+
 body {
     padding : 0;
     margin : 0;
@@ -38,8 +44,9 @@ body {
 .main-image {
     margin : 0;
     width : 100%;
-    height : 90%;
+    height : 95%;
     object-fit: cover;
+    opacity: .6;
 }
 
 .heading-text {

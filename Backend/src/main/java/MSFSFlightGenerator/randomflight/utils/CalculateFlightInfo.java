@@ -3,6 +3,9 @@ package MSFSFlightGenerator.randomflight.utils;
 import MSFSFlightGenerator.randomflight.airport.Airport;
 import MSFSFlightGenerator.randomflight.CustomException;
 
+/*
+This class is used to calculate flight time and distance
+ */
 public class CalculateFlightInfo {
 
     //calculate flight distance using coordinates

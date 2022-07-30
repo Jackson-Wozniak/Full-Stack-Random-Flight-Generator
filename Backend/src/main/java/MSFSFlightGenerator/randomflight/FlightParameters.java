@@ -1,5 +1,9 @@
 package MSFSFlightGenerator.randomflight;
 
+/*
+This class is used to parse the JSON returned from flightGenController class when
+receiving a flight that includes specific parameters
+ */
 public class FlightParameters {
 
     private String maxFlightHours;
