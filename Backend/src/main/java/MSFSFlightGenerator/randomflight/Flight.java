@@ -10,7 +10,7 @@ public class Flight {
     private Airport airport1; //will be stored in database
     private Airport airport2; //will be stored in database
     private double flightDistance;
-    private double flightHours;
+    private String flightHours;
 
     public Flight(Airport airport1, Airport airport2, Plane plane) {
         this.airport1 = airport1;
@@ -31,8 +31,11 @@ public class Flight {
 
 
     public void setFlightTime(){
-        this.flightHours = CalculateFlightInfo.calculateFlightHours(plane.getSpeedInKnots(), flightDistance);
+        this.flightHours = CalculateFlightInfo.convertHoursToHHmm(
+                CalculateFlightInfo.calculateFlightHours(plane.getSpeedInKnots(), flightDistance));
     }
+
+
 
     public Plane getPlane() {
         return this.plane;
@@ -50,7 +53,7 @@ public class Flight {
         return this.flightDistance;
     }
 
-    public double getFlightHours() {
+    public String getFlightHours() {
         return this.flightHours;
     }
 }

@@ -28,7 +28,7 @@ function formattedFlightData(flightInfo){
     return `
         <h2><i class="fa-solid fa-earth-americas"></i>Flight Info and Plane</h2>
         <hr/>
-        <p>Hours of Flight: <span>${flightInfo.flightHours} hours</span></p>
+        <p>Estimated Flight Time: <span>${flightInfo.flightHours}</span></p>
         <p>Flight Distance: <span>${flightInfo.flightDistance} miles</span></p>
         <p>Plane: <span>${flightInfo.plane.name}</span></p>
         <p>Cruising Speed: <span>${flightInfo.plane.speedInKnots} knots</span></p>

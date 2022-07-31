@@ -35,4 +35,11 @@ public class CalculateFlightInfo {
         double newPlaneSpeedInMph = planeSpeedInKnots * 1.15077945;
         return Math.round((flightDistanceInMiles/newPlaneSpeedInMph) * 100.00) / 100.00;
     }
+
+    public static String convertHoursToHHmm(double flightHours) {
+        double flightMinutes = flightHours * 60;
+        double hours = flightMinutes / 60;
+        double minutes = flightMinutes % 60;
+        return String.format("%02d:%02d", (int) Math.floor(hours), Math.round(minutes));
+    }
 }

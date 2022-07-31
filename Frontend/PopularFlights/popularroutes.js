@@ -1,3 +1,5 @@
+const cardContainer = document.getElementById('card-container');
+
 fetch('http://localhost:8080/routes/find-All')
     .then(res => res.json())
     .then(data => {
@@ -15,6 +17,6 @@ function showRoutes(data){
         </div>
         `;
 
-        document.getElementById("card-container").innerHTML += html;
+        cardContainer.innerHTML += html;
     });
 }
