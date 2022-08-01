@@ -1,4 +1,4 @@
-package MSFSFlightGenerator.famouslandmarks;
+package MSFSFlightGenerator.famouslandmarks.landmark;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

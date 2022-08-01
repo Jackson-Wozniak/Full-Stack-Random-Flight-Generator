@@ -1,5 +1,7 @@
-package MSFSFlightGenerator.popularflights;
+package MSFSFlightGenerator.popularflights.utils;
 
+import MSFSFlightGenerator.popularflights.route.Route;
+import MSFSFlightGenerator.popularflights.route.RouteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

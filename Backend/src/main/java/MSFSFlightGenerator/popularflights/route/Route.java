@@ -1,4 +1,4 @@
-package MSFSFlightGenerator.popularflights;
+package MSFSFlightGenerator.popularflights.route;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,22 +1,20 @@
-package MSFSFlightGenerator.famouslandmarks;
+package MSFSFlightGenerator.famouslandmarks.landmark;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.IOException;
 import java.util.List;
 
 @RestController
 @CrossOrigin(value = "http://127.0.0.1:5500/")
 @RequestMapping(value = "landmarks")
-public class FamousLandmarkController {
+public class LandmarkController {
 
     private final LandmarkService landmarkService;
 
-    public FamousLandmarkController(LandmarkService landmarkService){
+    public LandmarkController(LandmarkService landmarkService){
         this.landmarkService = landmarkService;
     }
 
