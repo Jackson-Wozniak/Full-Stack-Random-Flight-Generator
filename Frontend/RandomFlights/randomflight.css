@@ -12,6 +12,12 @@
     background-color: var(--darkest);
 }
 
+.navbar-right {
+    position: absolute;
+    right : 10;
+    top : 0;
+}
+
 .content-container {
     align-items : center; 
     text-align : center;

@@ -3,6 +3,17 @@ body {
     margin : 0;
 }
 
+.navbar-expand-lg {
+    background-image: none;
+    background-color: #111827;
+}
+
+.navbar-right {
+    position: absolute;
+    right : 10;
+    top : 0;
+}
+
 #card-container {
     display: flex;
     flex-direction: column;
@@ -40,4 +51,8 @@ body {
     width : 15%;
     font-family: 'Geneva', sans-serif;
     font-size : 20;
+}
+
+footer {
+    position:relative;
 }

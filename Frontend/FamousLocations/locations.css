@@ -1,6 +1,12 @@
-.landmark-container {
-    display : flex;
-    flex-wrap : wrap;
+.navbar-expand-lg {
+    background-image: none;
+    background-color: #111827;
+}
+
+.navbar-right {
+    position: absolute;
+    right : 10;
+    top : 0;
 }
 
 .card {
@@ -19,6 +25,7 @@
     flex-wrap: wrap;
     justify-content: center;
     min-height : 100%;
+    background-color: #1F2937;
 }
 
 p {
@@ -34,4 +41,8 @@ span {
     height : auto;
     width : 95%;
     border-radius: 5px;
+}
+
+footer {
+    position:relative;
 }
