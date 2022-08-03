@@ -1,7 +1,7 @@
 package MSFSFlightGenerator.randomflight.utils;
 
 import MSFSFlightGenerator.randomflight.airport.Airport;
-import MSFSFlightGenerator.randomflight.CustomException;
+import MSFSFlightGenerator.randomflight.exception.CustomException;
 
 /*
 This class is used to calculate flight time and distance

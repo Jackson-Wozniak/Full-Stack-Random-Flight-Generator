@@ -1,4 +1,4 @@
-package MSFSFlightGenerator.popularflights;
+package MSFSFlightGenerator.popularflights.exception;
 
 public class CustomRouteException extends Exception{
 

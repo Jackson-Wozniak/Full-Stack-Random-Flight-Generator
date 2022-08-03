@@ -1,8 +1,6 @@
 package MSFSFlightGenerator.popularflights.route;
 
-import MSFSFlightGenerator.popularflights.CustomRouteException;
-import MSFSFlightGenerator.popularflights.route.Route;
-import MSFSFlightGenerator.popularflights.route.RouteService;
+import MSFSFlightGenerator.popularflights.exception.CustomRouteException;
 import MSFSFlightGenerator.popularflights.utils.SaveRouteToDatabase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
