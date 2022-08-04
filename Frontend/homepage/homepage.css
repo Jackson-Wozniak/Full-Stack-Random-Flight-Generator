@@ -127,7 +127,7 @@ hr {
 .card-image {
     margin : 10px;
     border-radius: 5px;
-    width: 95%;
+    width: 40%;
     height : auto;
 }
 
@@ -142,37 +142,49 @@ hr {
 
 
 .card-holder {
+    padding : 0;
+    margin : 0;
     display : flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
     align-items: center;
     text-align: center;
     width : 100%;
-    min-height : 500px;
+    min-height : 100%;
 }
 
 .card-list {
-    flex : 0 1 auto;
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin : 10px 10px 10px 10px;
-    width: 350px;
-    height : 410px;
+    margin : 10px 10px 10px 20px;
+    padding : 20px 0px 10px 0px;
+    width: 95%;
+    height : auto;
     border-radius: 5px;
     border: 1px solid var(--dark);
-    background-color : var(--light);
-    color : var(--darkest);
+    border-width : 5px 0px 0px 0px;
+    border-color : var(--darkest);
+    color : var(--light);
 }
 
-.card-list h3 {
-    font-size: 28;
+.card-text-holder {
+    display: flex;
+    flex-direction: column;
+    width : 60%;
+}
+
+.card-text-holder h3 {
+    font-size: 48;
     font-family: 'Garamond', sans-serif;
 }
 
 .card-list p {
     padding : 0px 40px 0px 40px;
-    font-size: 18;
+    font-size: 24;
     font-family: 'Garamond', sans-serif;
 }
 
