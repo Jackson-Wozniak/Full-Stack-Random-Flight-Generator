@@ -15,18 +15,17 @@ function displayLocations(data){
 
         // Construct card content
     const content = `
-        <div class="card">
-            <div id="collapse-${idx}" class="collapse show" aria-labelledby="heading-${idx}" data-parent="#accordion">
-                <div class="card-body">
-                    <h3>${result.name}, ${result.location}</h3>
-                    <hr/>
-                    <span>${result.description}</span>
-                    <br/>
-                    <br/>
-                    <p>Airports nearby: <span>${result.airports}</span></p>
-                    <img class="card-image" src="${result.imageLink}">
-                </div>
+        <div class="card-holder">
+            <div class="card-body">
+                <h3>${result.name}, ${result.location}</h3>
+                <hr/>
+                <span>${result.description}</span>
+                <br/>
+                <br/>
+                <p>Airports nearby: <span>${result.airports}</span></p>
+                
             </div>
+            <img class="card-image" src="${result.imageLink}">
         </div>`;
     container.innerHTML += content;
     })
