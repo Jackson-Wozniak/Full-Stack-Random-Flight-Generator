@@ -18,31 +18,45 @@
     top : 0;
 }
 
+body {
+    padding : 0;
+    margin : 0;
+    background-color: var(--darker);
+}
+
 .content-container {
     align-items : center; 
     text-align : center;
     justify-content : center;
     display : flex;
     flex-direction: column;
-    min-height : 80vh;
+    min-height : 90%;
+    background-color: var(--darker);
+    padding-bottom : 50px;
 }
 
 .input-parameters {
     align-items: center;
     text-align: center;
-    min-width : 50%;
-    border : 1px solid grey;
+    min-width : 70%;
     border-radius: 5px;
+    color : var(--light);
+    border : 3px solid var(--light);
 }
 
 .input-info {
-    margin : 20px;
+    margin : 10px 20px 20px;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.input-info h5 {
-    margin-right : 10px;
+.input-info div {
+    padding : 10px;
+    margin-top : 10px;
+    margin-bottom: 10px;
 }
 
 input[type=radio] {
@@ -50,17 +64,23 @@ input[type=radio] {
     height : 1.25rem;
 }
 
+.preload-random-flight-div {
+    visibility: hidden;
+    height : 0;
+}
+
 .random-flight-div {
     margin : 30px;
-    min-height : 400px;
-    border-top : 1px solid var(--green);
-    width : 90%;
+    min-height : 100%;
+    width : 100%;
     align-items: center;
     text-align: center;
     justify-content: center;
     display : flex;
     flex-wrap: wrap;
-    min-height : 350px;
+    height : auto;
+    background-color: var(--darker);
+    color : var(--light);
 }
 
 .fa-plane-departure {
@@ -75,16 +95,14 @@ input[type=radio] {
     color : #bb0a1e
 }
 
-.card {
-    position: absolute;
-    flex : 0 1 auto;
-    align-items: center;
-    text-align: center;
-    margin : 30px 10px 10px 10px;
-    width: 350px;
-    min-height : 350px;
+#random-flight-button {
+    font-size: 2rem;
+    padding : 10px;
+    color : var(--green);
     border-radius: 5px;
-    color : var(--darkest);
+    border : 1px solid var(--light);
+    width : 80%;
+    background-color: var(--darker);
 }
 
 p {
@@ -99,12 +117,25 @@ span {
 }
 
 #departure-div {
-    padding : 10px;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin : 10px;
+    padding : 10px 30px 10px 30px;
     min-height : 70%;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 #flight-info-div {
-    padding : 10px;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin : 10px;
+    padding : 10px 30px 10px 30px;
+    min-height : 70%;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 hr {
@@ -113,5 +144,12 @@ hr {
 }
 
 #destination-div {
-    padding : 10px;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin : 10px;
+    padding : 10px 30px 10px 30px;
+    min-height : 70%;
+    border : 1px solid lightgrey;
+    border-radius: 5px;
 }

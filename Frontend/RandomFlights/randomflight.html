@@ -33,91 +33,64 @@
     </nav>
 
     <div class="content-container">
-        <div style="padding : 10px; margin : 20px;" class="input-parameters">
-            <div class="input-info">
-                <h5 style="display : inline;">Max Flight Hours</h5>
-
-                <label class="checkbox-inline check">
-                    <input type="radio" name="hours" id="flight-duration" value="any" checked> Any
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="hours" value="10"> 10 Hours
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="hours" value="5"> 5 Hours
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="hours" value="2"> 2 Hours
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="hours" value="1"> 1 Hour
-                </label>
-            </div>
-            <hr/>
-            <div class="input-info">
-                <h5 style="display : inline;">Plane Type</h5>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="type" id="plane-type" value="any" checked> Any
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="type" value="propeller"> Propeller
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="type" value="airliner"> Airliner
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="type" value="jet"> Jet
-                </label>
-                <label class="checkbox-inline check">
-                    <input type="radio" name="type" value="turboprop"> Turboprop
-                </label>
-            </div>
-            <hr/>
-            <div class="input-info">
-                <input type="submit" id="random-flight-button" value="Get Random Flight">
-            </div>
+        <div style="padding : 10px; margin : 20px;" class="input-parameters" id="main-input-div">
+            <form class="input-info" id="flight-parameters-form">
+                <div>
+                    <h1 style="margin: 10px;">Max Flight Hours</h1>
+                    <hr/>
+                    <br>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="hours" id="flight-duration" value="any" checked> Any
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="hours" value="10"> 10 Hours
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="hours" value="5"> 5 Hours
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="hours" value="2"> 2 Hours
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="hours" value="1"> 1 Hour
+                    </label>
+                </div>
+                <div>
+                    <h1 style="margin : 10px;">Plane Type</h1>
+                    <hr/>
+                    <br>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="type" id="plane-type" value="any" checked> Any
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="type" value="propeller"> Propeller
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="type" value="airliner"> Airliner
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="type" value="jet"> Jet
+                    </label>
+                    <label class="checkbox-inline check">
+                        <input type="radio" name="type" value="turboprop"> Turboprop
+                    </label>
+                </div>
+                <div style="width : 80%">
+                    <input type="submit" id="random-flight-button" value="Create Flight">
+                </div>      
+            </form>
         </div>
 
-        <div class="random-flight-div">
-            <div class="card">
-                <div id="departure-div">
-                    <h2><i class="fa-solid fa-plane-departure"></i>Departure</h2>
-                    <hr/>
-                    <p>Airport Name:</p>
-                    <p>ICAO Code:</p>
-                    <p>Country:</p>
-                    <p>Continent:</p>
-                    <p>Coordinates:</p>
-                </div>
-            </div>
-            <div class="card"">
-                <div id="flight-info-div">
-                    <h2><i class="fa-solid fa-earth-americas"></i>Flight Info and Plane</h2>
-                    <hr/>
-                    <p>Estimated Flight Time:</p>
-                    <p>Flight Distance:</p>
-                    <p>Plane:</p>
-                    <p>Cruising Speed:</p>
-                    <p>Type of Plane:</p>  
-                </div>
-            </div>
-            <div class="card"">
-                <div id="destination-div">
-                    <h2><i class="fa-solid fa-plane-arrival"></i>Destination</h2>
-                    <hr/>
-                    <p>Airport Name:</p>
-                    <p>ICAO Code:</p>
-                    <p>Country:</p>
-                    <p>Continent:</p>
-                    <p>Coordinates:</p>
-                </div>
-            </div>
+        <div class="preload-random-flight-div">
+            <div id="departure-div"></div>
+            <div id="flight-info-div"></div>
+            <div id="destination-div"></div>
         </div>
 
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-white"  style="background-color: #111827">
+    <footer class="text-center text-lg-start text-white"  style="background-color: #111827;">
             <div class="footer-div">
                 <div class="text-center p-2">
                     <a class="btn btn-outline-light btn-floating m-2" href="#!"role="button"

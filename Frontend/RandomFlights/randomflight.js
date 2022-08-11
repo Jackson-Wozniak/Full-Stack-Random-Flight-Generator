@@ -1,14 +1,15 @@
-const randomFlightButton = document.getElementById('random-flight-button');
+const flightParametersForm = document.getElementById('flight-parameters-form');
+const randomFlightDiv = document.querySelector(".preload-random-flight-div");
+const inputParametersDiv = document.getElementById('main-input-div');
 const departureDiv = document.getElementById('departure-div');
 const destinationDiv = document.getElementById('destination-div');
 const flightInfoDiv = document.getElementById('flight-info-div');
 
-randomFlightButton.onclick = function randomFlight() {
-
+flightParametersForm.addEventListener('submit', e => {
+    e.preventDefault();
     const maxFlightHours = document.querySelector("input[name='hours']:checked").value;
     const planeType = document.querySelector("input[name='type']:checked").value;
     const parameters = JSON.stringify({"maxFlightHours" : maxFlightHours, "planeType": planeType});
-
     fetch('http://localhost:8080/random/custom-flight', {
         method : "POST",
         headers: {
@@ -18,11 +19,14 @@ randomFlightButton.onclick = function randomFlight() {
     })
         .then(res => res.json())
         .then(data => {
-            departureDiv.innerHTML = formattedAirportData(data.airport1);
-            destinationDiv.innerHTML = formattedAirportData(data.airport2);
+            inputParametersDiv.remove();
+            randomFlightDiv.removeAttribute('class');
+            randomFlightDiv.classList.add('random-flight-div');
+            departureDiv.innerHTML = formattedAirportData(data.airport1, 'departure');
+            destinationDiv.innerHTML = formattedAirportData(data.airport2, 'arrival');
             flightInfoDiv.innerHTML = formattedFlightData(data);
     });
-}
+});
 
 function formattedFlightData(flightInfo){
     return `
@@ -35,10 +39,10 @@ function formattedFlightData(flightInfo){
         <p>Type of Plane: <span>${flightInfo.plane.type}</span></p>  `;
 }
 
-function formattedAirportData(airport){
+function formattedAirportData(airport, airportDirection){
     let regionNames = new Intl.DisplayNames(['en'], {type: 'region'});
     return `
-        <h2><i class="fa-solid fa-plane-arrival"></i>Destination</h2>
+        <h2><i class="fa-solid fa-plane-${airportDirection}"></i>${airportDirection}</h2>
         <hr/>
         <p>Airport Name: <span>${airport.airportName}</span></p>
         <p>ICAO Code: <span>${airport.icaoCode}</span></p>
