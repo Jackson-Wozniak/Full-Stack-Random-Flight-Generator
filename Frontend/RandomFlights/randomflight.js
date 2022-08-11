@@ -7,9 +7,21 @@ const flightInfoDiv = document.getElementById('flight-info-div');
 
 flightParametersForm.addEventListener('submit', e => {
     e.preventDefault();
+
     const maxFlightHours = document.querySelector("input[name='hours']:checked").value;
     const planeType = document.querySelector("input[name='type']:checked").value;
     const parameters = JSON.stringify({"maxFlightHours" : maxFlightHours, "planeType": planeType});
+    //loading screen
+    inputParametersDiv.removeAttribute('class');
+    inputParametersDiv.innerHTML = `
+    <div class="lds-ellipsis">
+        <div>
+            </div>
+                <div></div>
+                <div></div>
+            <div>
+        </div>  
+    </div>`;
     fetch('http://localhost:8080/random/custom-flight', {
         method : "POST",
         headers: {
@@ -25,6 +37,10 @@ flightParametersForm.addEventListener('submit', e => {
             departureDiv.innerHTML = formattedAirportData(data.airport1, 'departure');
             destinationDiv.innerHTML = formattedAirportData(data.airport2, 'arrival');
             flightInfoDiv.innerHTML = formattedFlightData(data);
+    }).catch(function(){
+        window.alert('Cannot connect to server');
+        location.reload();
+        return;
     });
 });
 

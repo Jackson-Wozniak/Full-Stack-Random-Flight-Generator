@@ -22,23 +22,16 @@
             <a class="nav-item nav-link" href="../PopularFlights/popularroutes.html">Popular Flights</a>
             <a class="nav-item nav-link" href="../FamousLocations/locations.html">Famous Locations</a>
         </div>
-        <div class="navbar-right">
-            <a class="btn btn-outline-light btn-floating m-2" target="_blank"
-                href="https://ourairports.com/data/"role="button">Airport Data Credit</a>
-
-            <a class="btn btn-outline-light btn-floating m-2" href="https://github.com/Jackson-Wozniak" 
-                target="_blank" role="button"><i class="fa-brands fa-github"></i></a>
-        </div>
         </div>
     </nav>
 
     <div class="content-container">
         <div style="padding : 10px; margin : 20px;" class="input-parameters" id="main-input-div">
             <form class="input-info" id="flight-parameters-form">
-                <div>
-                    <h1 style="margin: 10px;">Max Flight Hours</h1>
+                    <h1 style="margin : 10px">Generate Custom Flights</h1>
                     <hr/>
-                    <br>
+                <div>
+                    <h3 style="margin-bottom : 40px;">Max Flight Hours</h3>
                     <label class="checkbox-inline check">
                         <input type="radio" name="hours" id="flight-duration" value="any" checked> Any
                     </label>
@@ -55,10 +48,9 @@
                         <input type="radio" name="hours" value="1"> 1 Hour
                     </label>
                 </div>
+                <hr/>
                 <div>
-                    <h1 style="margin : 10px;">Plane Type</h1>
-                    <hr/>
-                    <br>
+                    <h3 style="margin-bottom : 40px;">Plane Type</h3>
                     <label class="checkbox-inline check">
                         <input type="radio" name="type" id="plane-type" value="any" checked> Any
                     </label>

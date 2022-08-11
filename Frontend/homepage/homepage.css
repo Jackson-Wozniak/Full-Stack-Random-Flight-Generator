@@ -74,42 +74,10 @@ body {
     font-size : 2rem;
 }
 
-/*
-.featured-card {
-    position: absolute;
-    top : 70%;
-    left : 50%;
-    transform: translate(-50%, -50%);
-}
-
-.featured-card h2 {
-    color : var(--light);
-    font-family: 'Century Gothic',sans-serif;
-    position: absolute;
-    top: 0;
-    right : 55;
-    margin-bottom : 10px;
-}
-*/
-
-
 hr {
     background-color: var(--green);
     width : 80%;
 }
-
-/* .card-type {
-    flex : 0 1 auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin :30px 10px 10px 10px;
-    width: 300px;
-    height : 380px;
-    border-radius: 5px;
-    border: 1px solid var(--light);
-    background-color : var(--darker);
-} */
 
 .card-title {
     font-size: 30;
@@ -190,5 +158,18 @@ hr {
 
 footer {
     position:relative;
+    margin-top : 40px
+}
+
+@media only screen and (max-width : 500px){
+    .card-image {
+        width : 80%;
+    }
+    .card-list {
+        flex-wrap: wrap;
+    }
+    .card-text-holder {
+        width : 80%;
+    }
 }
 
