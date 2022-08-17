@@ -27,8 +27,6 @@ and is filtered to include all airports with IATA codes, to help filter out priv
 All plane data is taken from Microsoft Flight Simulator.
 
 ---
-# Screenshots
+# Demo
 
-![Screenshot (32)](https://user-images.githubusercontent.com/105665813/182897346-8c70daa9-559a-42e2-b86c-251e8dc76ad5.png)
-
-![Screenshot (33)](https://user-images.githubusercontent.com/105665813/182897397-165d0fc4-d868-4498-afb2-753c65322743.png)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/105665813/185027431-59eec1be-8e3c-4739-ae4e-3361b9189649.gif)
