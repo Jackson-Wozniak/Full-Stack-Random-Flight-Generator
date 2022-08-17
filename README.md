@@ -1,9 +1,11 @@
 # Flight-Generator-For-MSFS
 
-A web application that gives users the opportunity to explore the world of Microsoft Flight Simulator 2020.
+A web application used to create random flight plans for flight simulators. 
 
-This website gives users the option to generate random flights from over 9,000 airports across the world, view popular real world flights, 
-or see a list of famous landmarks across the globe.
+Flight plan data includes two random airports from across the world, a random plane to be flown, and the estimated flight time and distance.
+Flight parameters can be chosen to get flights that fall within a specific duration, or are flown by a plane of a specific type.
+
+This app also includes web pages that recommend famous locations across the world to visit, and popular real world flights to re-enact.
 
 ---
 # Technologies
