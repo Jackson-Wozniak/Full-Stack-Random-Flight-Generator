@@ -61,6 +61,7 @@ body {
     color : var(--light);
     text-shadow: 4px 4px var(--darkest);
     font-family: 'Century Gothic',sans-serif;
+    font-size : 60;
 }
 
 .heading-text hr {
@@ -71,7 +72,7 @@ body {
     text-shadow: 2px 2px var(--darkest);
     color : var(--light);
     font-family: 'Century Gothic', sans-serif;
-    font-size : 2rem;
+    font-size : 35;
 }
 
 hr {
@@ -107,7 +108,6 @@ hr {
     text-align: center;
     color : var(--light);
 }
-
 
 .card-holder {
     padding : 0;
@@ -162,6 +162,15 @@ footer {
 }
 
 @media only screen and (max-width : 500px){
+    .heading-text h1 {
+        font-size : 48;
+    }
+    .heading-text p {
+        font-size : 22;
+    }
+    .explore-features-card {
+        font-size: 48;
+    }
     .card-image {
         width : 80%;
     }
@@ -170,6 +179,14 @@ footer {
     }
     .card-text-holder {
         width : 80%;
+    }
+    .card-text-holder h3 {
+        font-size: 38;
+    }
+    
+    .card-list p {
+        padding : 0px 40px 0px 40px;
+        font-size: 18;
     }
 }
 

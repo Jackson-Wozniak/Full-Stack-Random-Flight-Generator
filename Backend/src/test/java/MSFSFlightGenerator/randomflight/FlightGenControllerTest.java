@@ -28,7 +28,7 @@ class FlightGenControllerTest {
                 airportService.findRandomAirport(),
                 airportService.findRandomAirport(),
                 planeService.findRandomPlane());
-        assertNotEquals(0.0d, flight.getFlightDistance());
+        assertNotEquals(0.0d, flight.getFlightDistanceInMiles());
     }
 
 }

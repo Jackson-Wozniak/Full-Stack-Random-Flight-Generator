@@ -38,10 +38,29 @@ body {
 .input-parameters {
     align-items: center;
     text-align: center;
-    min-width : 70%;
+    min-width : 80%;
     border-radius: 5px;
     color : var(--light);
-    border : 3px solid var(--light);
+    border : 5px solid var(--darkest);
+}
+
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    background-color: var(--dark);
+    border-color: var(--light);
+    margin : 10px;
+}
+
+input[type=radio]:checked + label { 
+    background-image: none;
+    background-color:var(--green);
 }
 
 .input-info {
@@ -98,11 +117,11 @@ input[type=radio] {
 #random-flight-button {
     font-size: 2rem;
     padding : 10px;
-    color : var(--green);
+    color : var(--light);
     border-radius: 5px;
-    border : 1px solid var(--light);
-    width : 80%;
-    background-color: var(--darker);
+    border : none;
+    width : 90%;
+    background-color: var(--dark);
 }
 
 p {

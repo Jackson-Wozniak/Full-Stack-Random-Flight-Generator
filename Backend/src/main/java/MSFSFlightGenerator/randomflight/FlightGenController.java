@@ -1,16 +1,15 @@
 package MSFSFlightGenerator.randomflight;
 
 import MSFSFlightGenerator.randomflight.airport.Airport;
-import MSFSFlightGenerator.randomflight.plane.Plane;
 import MSFSFlightGenerator.randomflight.airport.AirportService;
+import MSFSFlightGenerator.randomflight.plane.Plane;
 import MSFSFlightGenerator.randomflight.plane.PlaneService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(value = "http://127.0.0.1:5500/")
+@CrossOrigin(origins = {"http://127.0.0.1:5501","http://127.0.0.1:5500"})
 @RequestMapping(value = "/random")
 public class FlightGenController {
 

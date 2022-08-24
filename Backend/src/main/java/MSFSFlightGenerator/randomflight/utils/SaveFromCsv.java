@@ -1,8 +1,8 @@
 package MSFSFlightGenerator.randomflight.utils;
 
 import MSFSFlightGenerator.randomflight.airport.Airport;
-import MSFSFlightGenerator.randomflight.plane.Plane;
 import MSFSFlightGenerator.randomflight.airport.AirportService;
+import MSFSFlightGenerator.randomflight.plane.Plane;
 import MSFSFlightGenerator.randomflight.plane.PlaneService;
 import org.springframework.beans.factory.annotation.Autowired;
 

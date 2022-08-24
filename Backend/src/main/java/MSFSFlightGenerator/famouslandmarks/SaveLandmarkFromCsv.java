@@ -1,7 +1,5 @@
-package MSFSFlightGenerator.famouslandmarks.utils;
+package MSFSFlightGenerator.famouslandmarks;
 
-import MSFSFlightGenerator.famouslandmarks.landmark.Landmark;
-import MSFSFlightGenerator.famouslandmarks.landmark.LandmarkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

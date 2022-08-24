@@ -47,8 +47,8 @@ public class AirportService {
             }else{
                 airport2 = airportRepository.getRandomAirportByContinent(airport1.getContinent());
             }
-            double flightDistance = CalculateFlightInfo.calculateFlightDistanceInMiles(airport1, airport2);
-            if(flightDistance / planeSpeed > maxHours){
+            double flightDistanceInMiles = CalculateFlightInfo.calculateFlightDistanceInMiles(airport1, airport2);
+            if(flightDistanceInMiles / planeSpeed > maxHours){
                 continue;
             }
             break;

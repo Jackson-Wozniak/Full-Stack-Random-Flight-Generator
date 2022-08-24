@@ -32,42 +32,43 @@
                     <hr/>
                 <div>
                     <h3 style="margin-bottom : 40px;">Max Flight Hours</h3>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="hours" id="flight-duration" value="any" checked> Any
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="hours" value="10"> 10 Hours
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="hours" value="5"> 5 Hours
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="hours" value="2"> 2 Hours
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="hours" value="1"> 1 Hour
-                    </label>
+
+                    <input type="radio" name="hours" id="any-hours" value="any" checked> 
+                    <label class="cb" for="any-hours">Any</label>
+                    
+                    <input type="radio" name="hours" value="10" id="10-hours">
+                    <label class="cb" for="10-hours">10 Hours</label>
+                    
+                    <input type="radio" name="hours" value="5" id="5-hours">
+                    <label class="cb" for="5-hours">5 Hours</label>
+                    
+                    <input type="radio" name="hours" value="2" id="2-hours">
+                    <label class="cb" for="2-hours">2 Hours</label>
+
+                    <input type="radio" name="hours" value="1" id="1-hour">
+                    <label class="cb" for="1-hour">1 Hour</label>
+                    
                 </div>
-                <hr/>
                 <div>
                     <h3 style="margin-bottom : 40px;">Plane Type</h3>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="type" id="plane-type" value="any" checked> Any
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="type" value="propeller"> Propeller
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="type" value="airliner"> Airliner
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="type" value="jet"> Jet
-                    </label>
-                    <label class="checkbox-inline check">
-                        <input type="radio" name="type" value="turboprop"> Turboprop
-                    </label>
+
+                    <input type="radio" name="type" id="plane-type" value="any" checked>
+                    <label class="checkbox-inline check" for="plane-type">Any</label>
+
+                    <input type="radio" name="type" value="propeller" id="propeller">
+                    <label class="checkbox-inline check" for="propeller">Propeller</label>
+
+                    <input type="radio" name="type" value="airliner" id="airliner">
+                    <label class="checkbox-inline check" for="airliner">Airliner</label>
+
+                    <input type="radio" name="type" value="turboprop" id="turboprop">
+                    <label class="checkbox-inline check" for="turboprop">TurboProp</label>
+
+                    <input type="radio" name="type" value="jet" id="jet">
+                    <label class="checkbox-inline check" for="jet">Jet</label>
+
                 </div>
-                <div style="width : 80%">
+                <div style="width : 100%; margin-top : 50px">
                     <input type="submit" id="random-flight-button" value="Create Flight">
                 </div>      
             </form>

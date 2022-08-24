@@ -1,7 +1,5 @@
-package MSFSFlightGenerator.popularflights.utils;
+package MSFSFlightGenerator.popularflights.route;
 
-import MSFSFlightGenerator.popularflights.route.Route;
-import MSFSFlightGenerator.popularflights.route.RouteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +10,7 @@ import java.nio.file.Files;
 @Service
 public class SaveRouteToDatabase {
 
-    private RouteService routeService;
+    private final RouteService routeService;
 
     @Autowired
     public SaveRouteToDatabase(RouteService routeService){

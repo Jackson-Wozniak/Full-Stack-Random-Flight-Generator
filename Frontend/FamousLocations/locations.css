@@ -51,6 +51,7 @@ span {
 .card-image {
     position : relative;
     height : auto;
+    object-fit: contain;
     width : 90%;
     border-radius: 5px;
 }

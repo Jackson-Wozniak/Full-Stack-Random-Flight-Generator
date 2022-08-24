@@ -1,6 +1,5 @@
 package MSFSFlightGenerator.popularflights.route;
 
-import MSFSFlightGenerator.popularflights.exception.CustomRouteException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

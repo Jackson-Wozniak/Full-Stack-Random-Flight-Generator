@@ -9,14 +9,14 @@ public class Flight {
     private Plane plane; //will be stored in database
     private Airport airport1; //will be stored in database
     private Airport airport2; //will be stored in database
-    private double flightDistance;
+    private double flightDistanceInMiles;
     private String flightHours;
 
     public Flight(Airport airport1, Airport airport2, Plane plane) {
         this.airport1 = airport1;
         this.airport2 = airport2;
         this.plane = plane;
-        setFlightDistance();
+        setFlightDistanceInMiles();
         setFlightTime();
     }
 
@@ -25,14 +25,14 @@ public class Flight {
     }
 
 
-    public void setFlightDistance(){
-        this.flightDistance = CalculateFlightInfo.calculateFlightDistanceInMiles(airport1, airport2);
+    public void setFlightDistanceInMiles(){
+        this.flightDistanceInMiles = CalculateFlightInfo.calculateFlightDistanceInMiles(airport1, airport2);
     }
 
 
     public void setFlightTime(){
         this.flightHours = CalculateFlightInfo.convertHoursToHHmm(
-                CalculateFlightInfo.calculateFlightHours(plane.getSpeedInKnots(), flightDistance));
+                CalculateFlightInfo.calculateFlightHours(plane.getSpeedInKnots(), flightDistanceInMiles));
     }
 
 
@@ -49,8 +49,8 @@ public class Flight {
         return this.airport2;
     }
 
-    public double getFlightDistance() {
-        return this.flightDistance;
+    public double getFlightDistanceInMiles() {
+        return this.flightDistanceInMiles;
     }
 
     public String getFlightHours() {
