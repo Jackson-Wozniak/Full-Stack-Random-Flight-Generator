@@ -82,3 +82,10 @@ All plane data is taken from Microsoft Flight Simulator.
 
 ![Screenshot (39)](https://user-images.githubusercontent.com/105665813/186459010-b62ffb31-09c8-4fe4-8509-b2437fcd904b.png)
 
+
+---
+
+Credit: 
+
+Photo by Pixabay from Pexels: https://www.pexels.com/photo/white-ford-e150-near-fiat-doblo-under-a-cloudy-sky-163771/
+
