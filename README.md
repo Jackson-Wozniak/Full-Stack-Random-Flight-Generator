@@ -62,13 +62,6 @@
 ```
 
 ---
-
-Airport data is taken from https://ourairports.com/data/,
-and is filtered to include all airports with IATA codes, to help filter out private or closed airports.
-
-All plane data is taken from Microsoft Flight Simulator.
-
----
 # Screenshots
 
 ### Landing Page 
@@ -87,5 +80,13 @@ All plane data is taken from Microsoft Flight Simulator.
 
 Credit: 
 
-Photo by Pixabay from Pexels: https://www.pexels.com/photo/white-ford-e150-near-fiat-doblo-under-a-cloudy-sky-163771/
+* GitHub Social Media Preview Image: https://unsplash.com/photos/a80xLtm_tMQ
+
+* All other image links are in Frontend/links.txt
+
+
+* Airport data is taken from https://ourairports.com/data/,
+and is filtered to include all airports with IATA codes, to help filter out private or closed airports.
+
+* All plane data is taken from Microsoft Flight Simulator.
 
