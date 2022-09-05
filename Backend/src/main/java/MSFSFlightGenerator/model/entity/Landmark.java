@@ -1,5 +1,9 @@
 package MSFSFlightGenerator.model.entity;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,6 +11,9 @@ import javax.persistence.Table;
 
 @Entity(name = "landmark")
 @Table(name = "landmark")
+@Getter
+@Setter
+@NoArgsConstructor
 public class Landmark {
 
     @Id
@@ -24,35 +31,11 @@ public class Landmark {
     @Column(name = "link")
     private String imageLink;
 
-    public Landmark(){
-
-    }
-
     public Landmark(String name, String location, String description, String airports, String imageLink) {
         this.name = name;
         this.location = location;
         this.description = description;
         this.airports = airports;
         this.imageLink = imageLink;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getAirports() {
-        return airports;
-    }
-
-    public String getImageLink() {
-        return imageLink;
-    }
-
-    public String getLocation() {
-        return location;
     }
 }

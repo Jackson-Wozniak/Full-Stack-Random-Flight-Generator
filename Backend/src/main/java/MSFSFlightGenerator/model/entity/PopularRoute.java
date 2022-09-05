@@ -1,5 +1,9 @@
 package MSFSFlightGenerator.model.entity;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,6 +11,9 @@ import javax.persistence.Table;
 
 @Entity(name= "route")
 @Table(name = "route")
+@Getter
+@Setter
+@NoArgsConstructor
 public class PopularRoute {
 
     @Id
@@ -24,12 +31,6 @@ public class PopularRoute {
     @Column(name = "destinationCode")
     private String destinationIcao;
 
-
-
-    public PopularRoute(){
-
-    }
-
     public PopularRoute(int ranking,
                         String departureAirport,
                         String departureIcao,
@@ -40,25 +41,5 @@ public class PopularRoute {
         this.departureIcao = departureIcao;
         this.destinationAirport = destinationAirport;
         this.destinationIcao = destinationIcao;
-    }
-
-    public Integer getFlightRanking() {
-        return flightRanking;
-    }
-
-    public String getDepartureAirport() {
-        return departureAirport;
-    }
-
-    public String getDepartureIcao() {
-        return departureIcao;
-    }
-
-    public String getDestinationAirport() {
-        return destinationAirport;
-    }
-
-    public String getDestinationIcao() {
-        return destinationIcao;
     }
 }

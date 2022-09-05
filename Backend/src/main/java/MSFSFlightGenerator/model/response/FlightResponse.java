@@ -3,7 +3,13 @@ package MSFSFlightGenerator.model.response;
 import MSFSFlightGenerator.model.entity.Airport;
 import MSFSFlightGenerator.model.entity.Plane;
 import MSFSFlightGenerator.utils.GenerateFlightUtils;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@NoArgsConstructor
 public class FlightResponse {
 
     private Plane plane; //will be stored in database
@@ -20,40 +26,12 @@ public class FlightResponse {
         setFlightTime();
     }
 
-    public FlightResponse(){
-        //empty entity constructor
-    }
-
-
     public void setFlightDistanceInMiles(){
         this.flightDistanceInMiles = GenerateFlightUtils.calculateFlightDistanceInMiles(airport1, airport2);
     }
 
-
     public void setFlightTime(){
         this.flightHours = GenerateFlightUtils.convertHoursToHHmm(
                 GenerateFlightUtils.calculateFlightHours(plane.getSpeedInKnots(), flightDistanceInMiles));
-    }
-
-
-
-    public Plane getPlane() {
-        return this.plane;
-    }
-
-    public Airport getAirport1() {
-        return this.airport1;
-    }
-
-    public Airport getAirport2() {
-        return this.airport2;
-    }
-
-    public double getFlightDistanceInMiles() {
-        return this.flightDistanceInMiles;
-    }
-
-    public String getFlightHours() {
-        return this.flightHours;
     }
 }

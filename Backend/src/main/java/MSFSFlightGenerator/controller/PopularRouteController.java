@@ -3,6 +3,7 @@ package MSFSFlightGenerator.controller;
 import MSFSFlightGenerator.model.entity.PopularRoute;
 import MSFSFlightGenerator.savetodatabase.SavePopularRouteFromCsv;
 import MSFSFlightGenerator.service.PopularRouteService;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,7 @@ import java.util.List;
 @RestController
 @CrossOrigin(origins = {"http://127.0.0.1:5501","http://127.0.0.1:5500"})
 @RequestMapping("routes")
+@AllArgsConstructor
 public class PopularRouteController {
 
     @Autowired

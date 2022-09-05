@@ -2,20 +2,18 @@ package MSFSFlightGenerator.service;
 
 import MSFSFlightGenerator.model.entity.Plane;
 import MSFSFlightGenerator.repository.PlaneRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@AllArgsConstructor
 public class PlaneService {
 
-    private final PlaneRepository planeRepository;
-
     @Autowired
-    public PlaneService(PlaneRepository planeRepository){
-        this.planeRepository = planeRepository;
-    }
+    private final PlaneRepository planeRepository;
 
     //this method will be used when I create a combo box on frontend including all plane names
 //    public Plane findPlaneById(String name){

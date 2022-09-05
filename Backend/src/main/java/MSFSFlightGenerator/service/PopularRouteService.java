@@ -3,20 +3,18 @@ package MSFSFlightGenerator.service;
 import MSFSFlightGenerator.exception.PopularRouteNotFoundException;
 import MSFSFlightGenerator.model.entity.PopularRoute;
 import MSFSFlightGenerator.repository.PopularRouteRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@AllArgsConstructor
 public class PopularRouteService {
 
-    private final PopularRouteRepository routeRepository;
-
     @Autowired
-    public PopularRouteService(PopularRouteRepository routeRepository){
-        this.routeRepository = routeRepository;
-    }
+    private final PopularRouteRepository routeRepository;
 
     public List<PopularRoute> getAllRoutes(){
         return routeRepository.findAll();

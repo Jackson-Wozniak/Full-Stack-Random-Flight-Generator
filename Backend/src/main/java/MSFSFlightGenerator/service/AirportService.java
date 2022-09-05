@@ -3,18 +3,18 @@ package MSFSFlightGenerator.service;
 import MSFSFlightGenerator.model.entity.Airport;
 import MSFSFlightGenerator.repository.AirportRepository;
 import MSFSFlightGenerator.utils.GenerateFlightUtils;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@AllArgsConstructor
 public class AirportService {
 
+    @Autowired
     private final AirportRepository airportRepository;
-
-    public AirportService(AirportRepository airportRepository){
-        this.airportRepository = airportRepository;
-    }
 
     public Airport findRandomAirport(){
         return airportRepository.getRandomAirport();

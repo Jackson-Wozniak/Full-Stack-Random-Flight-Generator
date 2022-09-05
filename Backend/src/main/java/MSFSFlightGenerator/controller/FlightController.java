@@ -6,6 +6,8 @@ import MSFSFlightGenerator.model.request.FlightRequest;
 import MSFSFlightGenerator.model.response.FlightResponse;
 import MSFSFlightGenerator.service.AirportService;
 import MSFSFlightGenerator.service.PlaneService;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,15 +15,13 @@ import java.util.List;
 @RestController
 @CrossOrigin(origins = {"http://127.0.0.1:5501","http://127.0.0.1:5500"})
 @RequestMapping(value = "/random")
+@AllArgsConstructor
 public class FlightController {
 
+    @Autowired
     private final PlaneService planeService;
+    @Autowired
     private final AirportService airportService;
-
-    public FlightController(PlaneService planeService, AirportService airportService){
-        this.planeService = planeService;
-        this.airportService = airportService;
-    }
 
     /*
     returns flight with no parameters, totally random
