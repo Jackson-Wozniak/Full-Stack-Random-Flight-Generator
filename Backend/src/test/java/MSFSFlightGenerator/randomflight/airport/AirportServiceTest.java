@@ -1,8 +1,10 @@
 package MSFSFlightGenerator.randomflight.airport;
 
-import MSFSFlightGenerator.randomflight.plane.Plane;
-import MSFSFlightGenerator.randomflight.plane.PlaneService;
-import MSFSFlightGenerator.randomflight.utils.CalculateFlightInfo;
+import MSFSFlightGenerator.model.entity.Airport;
+import MSFSFlightGenerator.model.entity.Plane;
+import MSFSFlightGenerator.service.PlaneService;
+import MSFSFlightGenerator.utils.GenerateFlightUtils;
+import MSFSFlightGenerator.service.AirportService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,10 +30,10 @@ class AirportServiceTest {
         Plane plane = planeService.findRandomPlane();
         List<Airport> airports = airportService.getAirportsWithMaxHours(
                 "1", plane.getSpeedInKnots());
-        double flightDistance = CalculateFlightInfo.calculateFlightDistanceInMiles(
+        double flightDistance = GenerateFlightUtils.calculateFlightDistanceInMiles(
                 airports.get(0),
                 airports.get(1));
-        assertTrue(CalculateFlightInfo.calculateFlightHours(plane.getSpeedInKnots(), flightDistance) < 1);
+        assertTrue(GenerateFlightUtils.calculateFlightHours(plane.getSpeedInKnots(), flightDistance) < 1);
     }
 
     @Test
@@ -39,10 +41,10 @@ class AirportServiceTest {
         Plane plane = planeService.findRandomPlane();
         List<Airport> airports = airportService.getAirportsWithMaxHours(
                 "2", plane.getSpeedInKnots());
-        double flightDistance = CalculateFlightInfo.calculateFlightDistanceInMiles(
+        double flightDistance = GenerateFlightUtils.calculateFlightDistanceInMiles(
                 airports.get(0),
                 airports.get(1));
-        assertTrue(CalculateFlightInfo.calculateFlightHours(plane.getSpeedInKnots(), flightDistance) < 2);
+        assertTrue(GenerateFlightUtils.calculateFlightHours(plane.getSpeedInKnots(), flightDistance) < 2);
     }
 
 }
