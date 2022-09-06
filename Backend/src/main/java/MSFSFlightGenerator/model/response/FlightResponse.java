@@ -3,13 +3,13 @@ package MSFSFlightGenerator.model.response;
 import MSFSFlightGenerator.model.entity.Airport;
 import MSFSFlightGenerator.model.entity.Plane;
 import MSFSFlightGenerator.utils.GenerateFlightUtils;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class FlightResponse {
 
     private Plane plane; //will be stored in database
