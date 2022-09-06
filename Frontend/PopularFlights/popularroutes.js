@@ -1,6 +1,6 @@
 const cardContainer = document.getElementById('card-container');
 
-fetch('http://localhost:8080/routes/find-All')
+fetch('http://localhost:8080/api/v1/routes/all')
     .then(res => res.json())
     .then(data => {
         console.log(data);

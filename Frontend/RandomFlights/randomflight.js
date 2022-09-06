@@ -22,7 +22,7 @@ flightParametersForm.addEventListener('submit', e => {
             <div>
         </div>  
     </div>`;
-    fetch('http://localhost:8080/random/custom-flight', {
+    fetch('http://localhost:8080/api/v1/flight/custom', {
         method : "POST",
         headers: {
             'Content-Type': 'application/json',

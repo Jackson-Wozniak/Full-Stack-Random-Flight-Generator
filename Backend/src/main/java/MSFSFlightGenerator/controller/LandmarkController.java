@@ -13,20 +13,20 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = {"http://127.0.0.1:5501","http://127.0.0.1:5500"})
-@RequestMapping(value = "landmarks")
+@RequestMapping(value = "/api/v1/landmarks")
 @AllArgsConstructor
 public class LandmarkController {
 
     @Autowired
     private final LandmarkService landmarkService;
 
-    @GetMapping(value = "/get-all")
+    @GetMapping(value = "/all")
     public List<Landmark> returnAllLandmarks(){
         return landmarkService.getLandmarks();
     }
 
-    @GetMapping(value = "/get-random")
-    public Landmark returnRandomLandmark(){
-        return new Landmark();
-    }
+//    @GetMapping(value = "/random")
+//    public Landmark returnRandomLandmark(){
+//        return new Landmark();
+//    }
 }

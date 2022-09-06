@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = {"http://127.0.0.1:5501","http://127.0.0.1:5500"})
-@RequestMapping(value = "/random")
+@RequestMapping(value = "/api/v1/flight")
 @AllArgsConstructor
 public class FlightController {
 
@@ -26,7 +26,7 @@ public class FlightController {
     /*
     returns flight with no parameters, totally random
      */
-    @GetMapping(value = "/new-flight")
+    @GetMapping(value = "/random")
     public FlightResponse sendRandomFlight(){
         return new FlightResponse(
                 airportService.findRandomAirport(),
@@ -37,7 +37,7 @@ public class FlightController {
     /*
     returns flight parameters including the maximum flight time and plane type
      */
-    @PostMapping(value = "custom-flight")
+    @PostMapping(value = "/custom")
     public FlightResponse sendRandomFlightWithParameters(@RequestBody FlightRequest flightRequest){
         Plane plane = planeService.findRandomPlaneByType(flightRequest.getPlaneType());
         List<Airport> airports = airportService.getAirportsWithMaxHours(

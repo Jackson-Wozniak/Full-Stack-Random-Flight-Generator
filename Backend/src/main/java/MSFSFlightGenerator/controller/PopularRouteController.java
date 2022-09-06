@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = {"http://127.0.0.1:5501","http://127.0.0.1:5500"})
-@RequestMapping("routes")
+@RequestMapping("/api/v1/routes")
 @AllArgsConstructor
 public class PopularRouteController {
 
@@ -23,12 +23,12 @@ public class PopularRouteController {
     @Autowired
     private SavePopularRouteFromCsv savePopularRouteFromCsv;
 
-    @RequestMapping(value = "/find-All")
+    @RequestMapping(value = "/all")
     public List<PopularRoute> returnAllRoutes(){
         return popularRouteService.getAllRoutes();
     }
 
-    @RequestMapping(value = "/ranking={ranking}")
+    @RequestMapping(value = "/ranking/{ranking}")
     public PopularRoute returnRouteByRanking(@PathVariable int ranking){
         return popularRouteService.findRouteById(ranking);
     }

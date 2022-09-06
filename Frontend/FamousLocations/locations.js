@@ -1,4 +1,4 @@
-fetch('http://localhost:8080/landmarks/get-all')
+fetch('http://localhost:8080/api/v1/landmarks/all')
     .then(res => res.json())
     .then(data => {
         console.log(data);

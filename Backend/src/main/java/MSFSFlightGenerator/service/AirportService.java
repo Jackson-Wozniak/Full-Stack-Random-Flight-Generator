@@ -24,6 +24,9 @@ public class AirportService {
         airportRepository.save(airport);
     }
 
+    public Airport findAirportById(String id){
+        return airportRepository.findById(id).orElse(null);
+    }
 
     /*
     maxFlightHours is String so that the method can check if flight time is "any"
