@@ -60,4 +60,8 @@ public class AirportService {
         }
         return List.of(airport1, airport2);
     }
+
+    public Long getDatabaseRowCount(){
+        return airportRepository.count();
+    }
 }

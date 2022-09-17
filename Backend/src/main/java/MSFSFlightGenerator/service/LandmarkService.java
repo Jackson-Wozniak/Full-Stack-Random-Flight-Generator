@@ -22,4 +22,8 @@ public class LandmarkService {
     public List<Landmark> getLandmarks(){
         return landmarkRepository.findAll();
     }
+
+    public Long getDatabaseRowCount(){
+        return landmarkRepository.count();
+    }
 }

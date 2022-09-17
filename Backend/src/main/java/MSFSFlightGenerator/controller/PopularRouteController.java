@@ -1,7 +1,6 @@
 package MSFSFlightGenerator.controller;
 
 import MSFSFlightGenerator.model.entity.PopularRoute;
-import MSFSFlightGenerator.savetodatabase.SavePopularRouteFromCsv;
 import MSFSFlightGenerator.service.PopularRouteService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +19,6 @@ public class PopularRouteController {
 
     @Autowired
     private PopularRouteService popularRouteService;
-    @Autowired
-    private SavePopularRouteFromCsv savePopularRouteFromCsv;
 
     @RequestMapping(value = "/all")
     public List<PopularRoute> returnAllRoutes(){

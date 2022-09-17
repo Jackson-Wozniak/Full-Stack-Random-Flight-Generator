@@ -43,4 +43,8 @@ public class PlaneService {
         }
         return planeRepository.getRandomPlaneByType(type);
     }
+
+    public Long getDatabaseRowCount(){
+        return planeRepository.count();
+    }
 }

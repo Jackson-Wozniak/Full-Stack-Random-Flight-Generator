@@ -28,4 +28,8 @@ public class PopularRouteService {
     public void saveRouteToDb(PopularRoute popularRoute){
         routeRepository.save(popularRoute);
     }
+
+    public Long getDatabaseRowCount(){
+        return routeRepository.count();
+    }
 }
