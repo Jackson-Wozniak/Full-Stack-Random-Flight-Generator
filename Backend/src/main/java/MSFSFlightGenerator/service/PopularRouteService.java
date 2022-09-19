@@ -16,7 +16,7 @@ public class PopularRouteService {
     @Autowired
     private final PopularRouteRepository routeRepository;
 
-    public List<PopularRoute> getAllRoutes(){
+    public List<PopularRoute> findAllRoutes(){
         return routeRepository.findAll();
     }
 
@@ -25,11 +25,11 @@ public class PopularRouteService {
                 .orElseThrow(() -> new PopularRouteNotFoundException("cannot find route"));
     }
 
-    public void saveRouteToDb(PopularRoute popularRoute){
-        routeRepository.save(popularRoute);
+    public Long findDatabaseRowCount(){
+        return routeRepository.count();
     }
 
-    public Long getDatabaseRowCount(){
-        return routeRepository.count();
+    public void saveRoute(PopularRoute popularRoute){
+        routeRepository.save(popularRoute);
     }
 }

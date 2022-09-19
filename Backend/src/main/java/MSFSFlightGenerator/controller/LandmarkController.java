@@ -20,13 +20,10 @@ public class LandmarkController {
     @Autowired
     private final LandmarkService landmarkService;
 
+    //This is the only endpoint needed as frontend page displays a list of all landmarks
     @GetMapping(value = "/all")
-    public List<Landmark> returnAllLandmarks(){
-        return landmarkService.getLandmarks();
+    public List<Landmark> getAllLandmarks(){
+        return landmarkService.findLandmarks();
     }
 
-//    @GetMapping(value = "/random")
-//    public Landmark returnRandomLandmark(){
-//        return new Landmark();
-//    }
 }

@@ -31,7 +31,11 @@ public class Plane{
     @Column(name = "standard_edition")
     private String standardEdition;
 
-    public Plane(String name, String type, int speedInKnots, int rangeInKnots, String standardEdition) {
+    public Plane(String name,
+                 String type,
+                 int speedInKnots,
+                 int rangeInKnots,
+                 String standardEdition) {
         this.name = name;
         this.type = type;
         this.speedInKnots = speedInKnots;

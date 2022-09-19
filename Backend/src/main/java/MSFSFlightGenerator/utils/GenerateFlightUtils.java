@@ -4,16 +4,16 @@ import MSFSFlightGenerator.exception.FlightGeneratorException;
 import MSFSFlightGenerator.model.entity.Airport;
 
 /*
-This class is used to calculate flight time and distance
+A helper class for calculating flight time and distance
  */
 public class GenerateFlightUtils {
 
-    //calculate flight distance using coordinates
-    //using Haversine formula
+    //Haversine formula for finding distance w/- coordinates
     public static double calculateFlightDistanceInMiles(Airport airport1, Airport airport2){
         if(airport1 == null || airport2 == null){
             throw new FlightGeneratorException("flight time could not be calculated");
         }
+
         double latitude1 = Math.toRadians(airport1.getLatitude());
         double longitude1 = Math.toRadians(airport1.getLongitude());
         double latitude2 = Math.toRadians(airport2.getLatitude());
@@ -29,11 +29,9 @@ public class GenerateFlightUtils {
         return Math.round(((3956) * (2 * Math.asin(Math.sqrt(a)))) * 100.00) / 100.00;
     }
 
-    //calculate flight time using distance and speed
     public static double calculateFlightHours(int planeSpeedInKnots, double flightDistanceInMiles){
-        //knots to miles per hour
-        double newPlaneSpeedInMph = planeSpeedInKnots * 1.15077945;
-        return Math.round((flightDistanceInMiles/newPlaneSpeedInMph) * 100.00) / 100.00;
+        double planeSpeedInMph = planeSpeedInKnots * 1.15077945;
+        return Math.round((flightDistanceInMiles/planeSpeedInMph) * 100.00) / 100.00;
     }
 
     public static String convertHoursToHHmm(double flightHours) {

@@ -27,7 +27,7 @@ class AirportServiceTest {
     @Test
     void flightNotOverTenHours(){
         List<Airport> airports =
-                airportService.getAirportsWithMaxHours("10", 200);
+                airportService.findAirportsWithinMaxHours("10", 200);
         double distanceInMiles = GenerateFlightUtils.calculateFlightDistanceInMiles(
                 airports.get(0), airports.get(1));
         assert(GenerateFlightUtils.calculateFlightHours(200, distanceInMiles) <= 10);
@@ -36,7 +36,7 @@ class AirportServiceTest {
     @Test
     void timeOfAnyDoesNotThrowNumberFormatException(){
         assertDoesNotThrow(
-                () -> airportService.getAirportsWithMaxHours(
+                () -> airportService.findAirportsWithinMaxHours(
                         "any", 100));
     }
 

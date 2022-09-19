@@ -21,12 +21,12 @@ public class PopularRouteController {
     private PopularRouteService popularRouteService;
 
     @RequestMapping(value = "/all")
-    public List<PopularRoute> returnAllRoutes(){
-        return popularRouteService.getAllRoutes();
+    public List<PopularRoute> getAllRoutes(){
+        return popularRouteService.findAllRoutes();
     }
 
     @RequestMapping(value = "/ranking/{ranking}")
-    public PopularRoute returnRouteByRanking(@PathVariable int ranking){
+    public PopularRoute getRouteByRanking(@PathVariable int ranking){
         return popularRouteService.findRouteById(ranking);
     }
 }

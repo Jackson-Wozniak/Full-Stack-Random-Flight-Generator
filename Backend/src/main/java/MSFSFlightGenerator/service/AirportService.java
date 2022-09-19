@@ -20,48 +20,49 @@ public class AirportService {
         return airportRepository.getRandomAirport();
     }
 
-    public void saveNewAirport(Airport airport){
-        airportRepository.save(airport);
-    }
-
     public Airport findAirportById(String id){
         return airportRepository.findById(id).orElse(null);
     }
 
     /*
     maxFlightHours is String so that the method can check if flight time is "any"
-    if plane speed is < 150 + max hours < 2, flight is always domestic
-    if plane speed is < 150 + max hours < 5, flight stays within continent
+    if plane speed is < 150 + max hours < 2, flight is domestic
      */
-    public List<Airport> getAirportsWithMaxHours(String maxFlightHours, int planeSpeed){
+    public List<Airport> findAirportsWithinMaxHours(String maxFlightHours, int planeSpeed){
         if(maxFlightHours.equals("any")){
             return List.of(airportRepository.getRandomAirport(), airportRepository.getRandomAirport());
         }
-        Airport airport1;
-        Airport airport2;
-        /*
-        domesticFlight used to check if plane and duration is low enough that
-        both airports are to be within a single country
-        */
+
+        Airport airport1, airport2;
         double maxHours = Double.parseDouble(maxFlightHours);
         boolean domesticFlight = planeSpeed <= 150 && maxHours <= 2.0;
+
         while(true){
             airport1 = airportRepository.getRandomAirport();
+
             if(domesticFlight){
-                airport2 = airportRepository.getRandomAirportByCountry(airport1.getCountry());
+                airport2 = airportRepository.getRandomAirportByCountry(
+                        airport1.getCountry());
             }else{
-                airport2 = airportRepository.getRandomAirportByContinent(airport1.getContinent());
+                airport2 = airportRepository.getRandomAirportByContinent(
+                        airport1.getContinent());
             }
-            double flightDistanceInMiles = GenerateFlightUtils.calculateFlightDistanceInMiles(airport1, airport2);
-            if(flightDistanceInMiles / planeSpeed > maxHours){
-                continue;
+
+            double flightDistanceInMiles = GenerateFlightUtils.calculateFlightDistanceInMiles(
+                    airport1, airport2);
+
+            if((flightDistanceInMiles / planeSpeed) < maxHours){
+                break;
             }
-            break;
         }
         return List.of(airport1, airport2);
     }
 
-    public Long getDatabaseRowCount(){
+    public void saveNewAirport(Airport airport){
+        airportRepository.save(airport);
+    }
+
+    public Long findDatabaseRowCount(){
         return airportRepository.count();
     }
 }

@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
-import java.util.List;
 
 @Component
 @RequiredArgsConstructor
@@ -35,61 +34,64 @@ public class SaveDataOnStartup {
     private static final File landmarkFile = new File("Text-files/landmarks.csv");
     private static final File routeFile = new File("Text-files/routes.csv");
 
+    /*
+        This method tests the row count of all database items on startup.
+        If the row count doesn't match the csv file length, it saves the csv data to the DB
+     */
     @PostConstruct
-    public void testDatabaseSizeOnStartup(){
-        if(airportService.getDatabaseRowCount() < 9000){
-            System.out.println("Saving Airports");
+    public void findDatabaseSizeOnStartup(){
+        if(airportService.findDatabaseRowCount() < 9000){
+            logger.info("Saving Airports");
             try{
                 CsvToDatabaseUtils.saveAirportsFromCsv(airportFile, this.airportService);
             }catch(Exception ex){
                 ex.printStackTrace();
             }
         }
-        if(planeService.getDatabaseRowCount() < 30){
-            System.out.println("Saving Planes");
+        if(planeService.findDatabaseRowCount() < 30){
+            logger.info("Saving Planes");
             try{
                 CsvToDatabaseUtils.savePlanesFromCsv(planeFile, this.planeService);
             }catch(Exception ex){
                 ex.printStackTrace();
             }
         }
-        if(landmarkService.getDatabaseRowCount() < 5){
-            System.out.println("Saving Landmarks");
+        if(landmarkService.findDatabaseRowCount() < 5){
+            logger.info("Saving Landmarks");
             try{
                 CsvToDatabaseUtils.saveLandmarkToDb(landmarkFile, this.landmarkService);
             }catch(Exception ex){
                 ex.printStackTrace();
             }
         }
-        if(popularRouteService.getDatabaseRowCount() < 10){
-            System.out.println("Saving Routes");
+        if(popularRouteService.findDatabaseRowCount() < 10){
+            logger.info("Saving Routes");
             try{
                 CsvToDatabaseUtils.saveRouteFromCsv(routeFile, this.popularRouteService);
             }catch(Exception ex){
                 ex.printStackTrace();
             }
         }
-
-        logger.info("Airport DB Row Count: " + airportRowCount());
-        logger.info("Plane DB Row Count: " + planeRowCount());
-        logger.info("Landmark DB Row Count: " + landmarkRowCount());
-        logger.info("Route DB Row Count: " + routeRowCount());
+        logger.info("Airport DB Row Count: " + getAirportRowCount());
+        logger.info("Plane DB Row Count: " + getPlaneRowCount());
+        logger.info("Landmark DB Row Count: " + getLandmarkRowCount());
+        logger.info("Route DB Row Count: " + getRouteRowCount());
     }
 
     //these methods are used mainly for testing
-    private Long airportRowCount(){
-        return airportService.getDatabaseRowCount();
+    private Long getAirportRowCount(){
+        return airportService.findDatabaseRowCount();
     }
 
-    private Long planeRowCount(){
-        return planeService.getDatabaseRowCount();
+    private Long getPlaneRowCount(){
+        return planeService.findDatabaseRowCount();
     }
 
-    private Long landmarkRowCount(){
-        return landmarkService.getDatabaseRowCount();
+    private Long getLandmarkRowCount(){
+        return landmarkService.findDatabaseRowCount();
     }
 
-    private Long routeRowCount(){
-        return popularRouteService.getDatabaseRowCount();
+    private Long getRouteRowCount(){
+        return popularRouteService.findDatabaseRowCount();
     }
 }

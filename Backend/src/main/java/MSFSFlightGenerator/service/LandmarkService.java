@@ -19,11 +19,11 @@ public class LandmarkService {
         landmarkRepository.save(landmark);
     }
 
-    public List<Landmark> getLandmarks(){
+    public List<Landmark> findLandmarks(){
         return landmarkRepository.findAll();
     }
 
-    public Long getDatabaseRowCount(){
+    public Long findDatabaseRowCount(){
         return landmarkRepository.count();
     }
 }
