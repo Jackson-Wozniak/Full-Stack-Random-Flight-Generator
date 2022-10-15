@@ -1,14 +1,55 @@
-# Flight-Generator-For-MSFS
+![Commits](https://img.shields.io/github/commit-activity/m/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
+![Total Lines](https://img.shields.io/tokei/lines/github/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
+![License](https://img.shields.io/github/license/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
+![Java](https://img.shields.io/github/languages/top/Jackson-Wozniak/Random-Flight-Generator?color=brightgreen&style=for-the-badge)
 
+<div align="center">
+  <a href="">
+    <img src="https://user-images.githubusercontent.com/105665813/195965037-b0ae254a-6fe7-459d-be91-b36ac37e1865.png" alt="Logo" width="600" height="320">
+  </a>
 
-### A web application to explore the world of Flight Simulator 2020
+  <h3 align="center">Random Flight Generator</h3>
 
+  <p align="center">
+    Create random flights to airports across the world!
+    <br />
+    <a href=""><strong>Explore Features»</strong></a>
+    <br />
+    <br />
+    <a href="https://ourairports.com/data/">Airport Data</a>
+    ·
+    <a href="https://github.com/Jackson-Wozniak/Random-Flight-Generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Jackson-Wozniak/Stock-Market-Simulation/issues">Request Feature</a>
+  </p>
+</div>
+
+## :books: Table of Contents
+
+1. [About The Project](#Overview)
+
+2. [Technologies](#Technologies)
+
+3. [Demo](#Demo)
+
+4. [Screenshots](#Screenshots)
+
+5. [Credit](#Credit)
+
+<br/> 
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+## :pencil: About The Project <a name="Overview"></a>
+* a web application to explore the world of Flight Simulator 2020
 * Create Random Flights from over 9,000 airports across the world
 * View famous custom landmarks and travel destinations
 * See a list of the most popular real world flights in the world
 
----
-# Technologies
+<br/> 
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+## :iphone: Technologies <a name="Technologies"></a>
 
 ### Backend
 
@@ -21,9 +62,10 @@
 * Plain JavaScript
 * Bootstrap CSS
 
----
+<br/> 
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-# Random Flights Demo
+## :airplane: Random Flight Generator Demo <a name="Demo"></a>
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/105665813/186462243-1f43700d-43b7-469e-999f-515ec149c1dc.gif)
 
@@ -61,32 +103,28 @@
 }
 ```
 
----
-# Screenshots
+<br/> 
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-### Landing Page 
-*Pictures do not include full webpage
+## :camera: Screenshots <a name="Screenshots"></a>
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/105665813/186459585-b3faa759-0919-442f-90db-43fd55d5c880.png)
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/105665813/186459623-697018ea-80f2-41b8-894f-c103b2a4cac8.png)
 
-### Famous Landmark Example
-
 ![Screenshot (39)](https://user-images.githubusercontent.com/105665813/186459010-b62ffb31-09c8-4fe4-8509-b2437fcd904b.png)
 
 
----
+<br/> 
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-Credit: 
+## :loudspeaker: Credit <a name="Credit"></a>
 
-* GitHub Social Media Preview Image: https://unsplash.com/photos/a80xLtm_tMQ
+* [GitHub Social Media Preview Image](https://unsplash.com/photos/a80xLtm_tMQ)
 
-* All other image links are in Frontend/links.txt
+* [All Image Links](https://github.com/Jackson-Wozniak/Random-Flight-Generator/blob/main/Frontend/links.txt)
 
-
-* Airport data is taken from https://ourairports.com/data/,
-and is filtered to include all airports with IATA codes, to help filter out private or closed airports.
+* [Airport Data](https://ourairports.com/data)
 
 * All plane data is taken from Microsoft Flight Simulator.
 
