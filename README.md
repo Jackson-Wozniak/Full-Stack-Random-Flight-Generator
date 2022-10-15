@@ -1,6 +1,6 @@
 ![Commits](https://img.shields.io/github/commit-activity/m/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
+![Languages](https://img.shields.io/github/languages/count/Jackson-Wozniak/Random-Flight-Generator?color=brightgreen&style=for-the-badge)
 ![License](https://img.shields.io/github/license/Jackson-Wozniak/Random-Flight-Generator?style=for-the-badge)
 ![Java](https://img.shields.io/github/languages/top/Jackson-Wozniak/Random-Flight-Generator?color=brightgreen&style=for-the-badge)
 
