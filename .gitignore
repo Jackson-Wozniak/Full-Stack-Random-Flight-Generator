@@ -1,6 +1,6 @@
 .idea/
 .mvn/
-Backend/src/main/resources/application.properties
+Backend/main/resources/application.properties
 target/
 HELP.md
 MSFS-Flight-Generator.iml

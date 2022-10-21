@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>MSFS-Flight-Generator</artifactId>
+	<artifactId>random_flight_generator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MSFS-Flight-Generator</name>
+	<name>random_flight_generator</name>
 	<description>A project that recommends custom flights for flight sim 2020</description>
 	<properties>
 		<java.version>18</java.version>
