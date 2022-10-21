@@ -1,4 +1,4 @@
-package MSFSFlightGenerator.data;
+package MSFSFlightGenerator.configuration;
 
 import MSFSFlightGenerator.service.AirportService;
 import MSFSFlightGenerator.service.LandmarkService;
@@ -9,16 +9,16 @@ import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
 
-@Component
+@Configuration
 @RequiredArgsConstructor
-public class SaveDataOnStartup {
+public class DataConfiguration {
 
-    private final Logger logger = LoggerFactory.getLogger(SaveDataOnStartup.class);
+    private final Logger logger = LoggerFactory.getLogger(DataConfiguration.class);
 
     @Autowired
     private final AirportService airportService;
