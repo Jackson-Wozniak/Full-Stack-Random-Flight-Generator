@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
+import java.util.Date;
 
 @Configuration
 @RequiredArgsConstructor
@@ -23,8 +24,8 @@ public class DataConfiguration {
     @Autowired
     private final PlaneService planeService;
 
-    private static final File airportFile = new File("Text-files/airports.csv");
-    private static final File planeFile = new File("Text-files/planes.csv");
+    private static final File airportFile = new File("Data/airports.csv");
+    private static final File planeFile = new File("Data/planes.csv");
 
     /*
         This method tests the row count of all database items on startup.
@@ -35,7 +36,7 @@ public class DataConfiguration {
         if(airportService.findDatabaseRowCount() < 9000){
             logger.info("Saving Airports");
             try{
-                CsvToDatabaseUtils.saveAirportsFromCsv(airportFile, this.airportService);
+                airportService.saveAllAirports(CsvToDatabaseUtils.ConvertCsvToAirports(airportFile));
             }catch(Exception ex){
                 ex.printStackTrace();
             }
@@ -43,7 +44,7 @@ public class DataConfiguration {
         if(planeService.findDatabaseRowCount() < 30){
             logger.info("Saving Planes");
             try{
-                CsvToDatabaseUtils.savePlanesFromCsv(planeFile, this.planeService);
+                planeService.saveAllPlanes(CsvToDatabaseUtils.savePlanesFromCsv(planeFile));
             }catch(Exception ex) {
                 ex.printStackTrace();
             }

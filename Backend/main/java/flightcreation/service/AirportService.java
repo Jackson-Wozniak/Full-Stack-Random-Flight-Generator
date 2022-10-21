@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collection;
 import java.util.List;
 
 @Service
@@ -58,8 +59,8 @@ public class AirportService {
         return List.of(airport1, airport2);
     }
 
-    public void saveNewAirport(Airport airport){
-        airportRepository.save(airport);
+    public void saveAllAirports(Collection<Airport> airports){
+        airportRepository.saveAll(airports);
     }
 
     public Long findDatabaseRowCount(){

@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collection;
 import java.util.List;
 
 @Service
@@ -30,8 +31,8 @@ public class PlaneService {
         return planeRepository.getRandomPlaneByType(type);
     }
 
-    public void saveNewPlane(Plane plane){
-        planeRepository.save(plane);
+    public void saveAllPlanes(Collection<Plane> planes){
+        planeRepository.saveAll(planes);
     }
 
     public Long findDatabaseRowCount(){
