@@ -1,6 +1,7 @@
 package MSFSFlightGenerator.service;
 
 import flightcreation.model.entity.Airport;
+import flightcreation.model.request.FlightRequest;
 import flightcreation.service.AirportService;
 import flightcreation.utils.GenerateFlightUtils;
 import org.junit.jupiter.api.Test;
@@ -28,7 +29,7 @@ class AirportServiceTest {
     @Test
     void flightNotOverTenHours(){
         List<Airport> airports =
-                airportService.findAirportsWithinMaxHours("10", 200);
+                airportService.findAirportsWithinMaxHours(new FlightRequest("10", "propeller"), 200);
         double distanceInMiles = GenerateFlightUtils.calculateFlightDistanceInMiles(
                 airports.get(0), airports.get(1));
         assert(GenerateFlightUtils.calculateFlightHours(200, distanceInMiles) <= 10);
@@ -38,7 +39,7 @@ class AirportServiceTest {
     void timeOfAnyDoesNotThrowNumberFormatException(){
         assertDoesNotThrow(
                 () -> airportService.findAirportsWithinMaxHours(
-                        "any", 100));
+                        new FlightRequest("any", "propeller"), 100));
     }
 
 }
