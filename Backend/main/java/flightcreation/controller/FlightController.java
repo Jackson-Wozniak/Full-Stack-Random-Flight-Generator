@@ -1,5 +1,6 @@
 package flightcreation.controller;
 
+import flightcreation.exception.FlightGeneratorException;
 import flightcreation.model.entity.Airport;
 import flightcreation.model.entity.Plane;
 import flightcreation.model.request.FlightRequest;
@@ -34,12 +35,13 @@ public class FlightController {
     //Flight Request parameter includes max time and type of plane included in flight
     @PostMapping(value = "/custom")
     public FlightResponse createFlightWithParameters(@RequestBody FlightRequest flightRequest){
+        if(!flightRequest.isAValidPlaneType()){
+            throw new FlightGeneratorException("Plane Type Does Not Exist");
+        }
         Plane plane = planeService.findRandomPlaneByType(flightRequest.getPlaneType());
-
         List<Airport> airports = airportService.findAirportsWithinMaxHours(
-                flightRequest.getMaxFlightHours(),
+                flightRequest,
                 plane.getSpeedInKnots());
-
         //this constructor automatically calculates flight time/distance
         return new FlightResponse(airports.get(0), airports.get(1), plane);
     }

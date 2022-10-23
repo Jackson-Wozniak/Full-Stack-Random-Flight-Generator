@@ -1,5 +1,6 @@
 package flightcreation.model.request;
 
+import flightcreation.enums.PlaneType;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,5 +18,20 @@ public class FlightRequest {
     public FlightRequest(String maxFlightHours, String planeType) {
         this.maxFlightHours = maxFlightHours;
         this.planeType = planeType;
+    }
+
+    public boolean isAValidPlaneType(){
+        try{
+            PlaneType.valueOf(this.planeType.toUpperCase());
+            return true;
+        }catch (Exception ex){
+            return false;
+        }
+    }
+
+    public boolean isValidFlight(double maxFlightHours){
+        if(this.maxFlightHours.equals("any")) return true;
+
+        return Double.parseDouble(this.maxFlightHours) > maxFlightHours;
     }
 }
