@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -32,7 +33,7 @@ public class AirportService {
     airport to find whether the flight time is valid
      */
     public List<Airport> findAirportsWithinMaxHours(FlightRequest flightRequest, int planeSpeed){
-        List<Airport> airports = airportRepository.findAll();
+        ArrayList<Airport> airports = new ArrayList<>(airportRepository.findAll());
         if(flightRequest.getMaxFlightHours().equals("any")){
             Collections.shuffle(airports);
             return List.of(airports.get(0), airports.get(1));
@@ -43,6 +44,10 @@ public class AirportService {
         Airport airport1, airport2;
         do{
             Collections.shuffle(airports);
+            /*
+            gets final item in list so that it already loops through every other
+            airport before landing back on itself, so more comparisons are made
+             */
             airport1 = airports.get(airports.size() - 1);
             Airport finalAirport = airport1;
             airport2 = airports.stream()
